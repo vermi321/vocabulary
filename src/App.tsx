@@ -11,10 +11,12 @@ import {
   Select,
   Typography,
   IconButton,
+  Icon,
 } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 
 enum Mode {
   Learn = 1,
@@ -89,11 +91,13 @@ const Word = ({
   mode,
   checked,
   setChecked,
+  onPlay,
 }: {
   word: Word;
   mode: Mode;
   checked: boolean;
   setChecked: (checked: boolean) => void;
+  onPlay: () => void;
 }) => {
   return (
     <Box
@@ -117,7 +121,28 @@ const Word = ({
           </Typography>
           <Box className="translation">
             <Typography variant="h5" component="div">
-              <Box>{word.dutch}</Box>
+              <Box
+                onClick={onPlay}
+                sx={{
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                  "&:hover": {
+                    "& .pronounce": {
+                      color: "#333",
+                    },
+                  },
+                }}
+              >
+                <Box>{word.dutch}</Box>
+                <Icon sx={{ fontSize: 24, marginLeft: "4px" }} onClick={onPlay}>
+                  <PlayCircleOutlineIcon
+                    className="pronounce"
+                    fontSize="inherit"
+                    sx={{ color: "#ddd" }}
+                  />
+                </Icon>
+              </Box>
             </Typography>
             <Typography sx={{ mt: 1.5 }} color="text.secondary">
               <Box>{word.example}</Box>
@@ -149,6 +174,8 @@ const Word = ({
 };
 
 export const App = () => {
+  const [audioSrc, setAudioSrc] = useState<string | null>(null);
+
   const [initialLesson] = useState(() => {
     const storedNumber = Number(localStorage.lesson);
     const allLessons = wordlist.map((entry) => entry.lesson);
@@ -203,6 +230,17 @@ export const App = () => {
     _setLesson(lesson);
   }, []);
 
+  const onPlay = useCallback((word: Word) => {
+    fetch(`https://glosbe.com/api/audios/nl/${encodeURIComponent(word.dutch)}`)
+      .then((r) => r.json())
+      .then((r) =>
+        setAudioSrc(
+          `https://glosbe.com/fb_aud/mp3/${r.phraseAudioCarrier.audioEntries[0].url.mp3}`
+        )
+      )
+      .catch(() => {});
+  }, []);
+
   return (
     <Container maxWidth="md">
       <Box sx={{ flexGrow: 1, mt: 2 }}>
@@ -222,12 +260,22 @@ export const App = () => {
                       word={word}
                       mode={mode}
                       checked={isWordLearnt(word)}
+                      onPlay={() => onPlay(word)}
                       setChecked={(isLearnt) =>
                         setWordLearnt(word.dutch, isLearnt)
                       }
                     />
                   </Grid>
                 ))}
+                {audioSrc && (
+                  <iframe
+                    key={audioSrc}
+                    title="pronounciation"
+                    src={audioSrc}
+                    allow="autoplay"
+                    style={{ display: "none" }}
+                  />
+                )}
               </Grid>
             </Box>
           </Grid>
