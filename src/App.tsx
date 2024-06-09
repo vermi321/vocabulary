@@ -101,7 +101,14 @@ const Word = ({
 }) => {
   return (
     <Box
+      onClick={onPlay}
       sx={{
+        cursor: "pointer",
+        "&:hover": {
+          "& .pronounciation": {
+            color: "#333",
+          },
+        },
         ...(mode === Mode.Check && {
           "& .translation": {
             visibility: "hidden",
@@ -109,6 +116,9 @@ const Word = ({
           "&:hover": {
             "& .translation": {
               visibility: "visible",
+            },
+            "& .pronounciation": {
+              color: "#333",
             },
           },
         }),
@@ -120,29 +130,19 @@ const Word = ({
             {word.english}
           </Typography>
           <Box className="translation">
-            <Typography variant="h5" component="div">
-              <Box
-                onClick={onPlay}
-                sx={{
-                  cursor: "pointer",
-                  display: "flex",
-                  alignItems: "center",
-                  "&:hover": {
-                    "& .pronounce": {
-                      color: "#333",
-                    },
-                  },
-                }}
-              >
-                <Box>{word.dutch}</Box>
-                <Icon sx={{ fontSize: 24, marginLeft: "4px" }} onClick={onPlay}>
-                  <PlayCircleOutlineIcon
-                    className="pronounce"
-                    fontSize="inherit"
-                    sx={{ color: "#ddd" }}
-                  />
-                </Icon>
-              </Box>
+            <Typography
+              variant="h5"
+              component="div"
+              sx={{ display: "flex", alignItems: "center" }}
+            >
+              <Box>{word.dutch}</Box>
+              <Icon sx={{ fontSize: 24, marginLeft: "4px" }} onClick={onPlay}>
+                <PlayCircleOutlineIcon
+                  className="pronounciation"
+                  fontSize="inherit"
+                  sx={{ color: "#ddd" }}
+                />
+              </Icon>
             </Typography>
             <Typography sx={{ mt: 1.5 }} color="text.secondary">
               <Box>{word.example}</Box>
@@ -150,19 +150,16 @@ const Word = ({
             </Typography>
             <Box sx={{ position: "absolute", top: 5, right: 5 }}>
               <IconButton
-                sx={{ fontSize: 44 }}
+                sx={{
+                  fontSize: 44,
+                  color: checked ? "#16b06c" : "#ddd",
+                }}
                 onClick={() => setChecked(!checked)}
               >
                 {checked ? (
-                  <CheckCircleIcon
-                    fontSize="inherit"
-                    sx={{ color: "#16b06c" }}
-                  />
+                  <CheckCircleIcon fontSize="inherit" />
                 ) : (
-                  <CheckCircleOutlineIcon
-                    fontSize="inherit"
-                    sx={{ color: "#ddd" }}
-                  />
+                  <CheckCircleOutlineIcon fontSize="inherit" />
                 )}
               </IconButton>
             </Box>
