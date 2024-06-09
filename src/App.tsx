@@ -175,7 +175,7 @@ export const App = () => {
     const { words } = wordlist.find((entry) => entry.lesson === lesson)!;
     return mode === Mode.Check
       ? words.filter((word) => !isWordLearnt(word))
-      : words.sort((a, b) => isWordLearnt(a) - isWordLearnt(b));
+      : words;
   }, [mode, lesson, isWordLearnt]);
 
   const setWordLearnt = useCallback(
