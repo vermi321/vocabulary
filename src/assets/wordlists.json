@@ -1,0 +1,1606 @@
+[
+  {
+    "lesson": 1,
+    "words": [
+      {
+        "dutch": "welkom (in)",
+        "english": "welcome (to)",
+        "example": "Welkom in Nederland!",
+        "translation": "Welcome to the Netherlands!"
+      },
+      {
+        "dutch": "goedemorgen",
+        "english": "good morning",
+        "example": "Goedemorgen allemaal.",
+        "translation": "Good morning everyone."
+      },
+      {
+        "dutch": "allemaal",
+        "english": "everyone",
+        "example": "Goedemorgen allemaal.",
+        "translation": "Good morning everyone."
+      },
+      {
+        "dutch": "de cursus",
+        "english": "course",
+        "example": "Ik volg een Nederlandse cursus.",
+        "translation": "I am taking a Dutch course."
+      },
+      {
+        "dutch": "de",
+        "english": "the",
+        "example": "De cursus is interessant.",
+        "translation": "The course is interesting."
+      },
+      {
+        "dutch": "Nederlands",
+        "english": "Dutch",
+        "example": "Ik leer Nederlands.",
+        "translation": "I am learning Dutch."
+      },
+      {
+        "dutch": "ik",
+        "english": "I",
+        "example": "Ik ben student.",
+        "translation": "I am a student."
+      },
+      {
+        "dutch": "ben (zijn)",
+        "english": "am",
+        "example": "Ik ben blij.",
+        "translation": "I am happy."
+      },
+      {
+        "dutch": "en",
+        "english": "and",
+        "example": "Ik en mijn vriend.",
+        "translation": "Me and my friend."
+      },
+      {
+        "dutch": "jullie",
+        "english": "your (plural)",
+        "example": "Waar zijn jullie boeken?",
+        "translation": "Where are your books?"
+      },
+      {
+        "dutch": "de docent",
+        "english": "teacher",
+        "example": "De docent geeft les.",
+        "translation": "The teacher teaches."
+      },
+      {
+        "dutch": "docenten (docent)",
+        "english": "teachers",
+        "example": "De docenten zijn aardig.",
+        "translation": "The teachers are nice."
+      },
+      {
+        "dutch": "jullie",
+        "english": "you (plural)",
+        "example": "Jullie zijn welkom.",
+        "translation": "You are welcome."
+      },
+      {
+        "dutch": "hebben (hebben)",
+        "english": "have",
+        "example": "Wij hebben een boek.",
+        "translation": "We have a book."
+      },
+      {
+        "dutch": "twee",
+        "english": "two",
+        "example": "Ik heb twee katten.",
+        "translation": "I have two cats."
+      },
+      {
+        "dutch": "andere",
+        "english": "other",
+        "example": "De andere boeken zijn hier.",
+        "translation": "The other books are here."
+      },
+      {
+        "dutch": "is (zijn)",
+        "english": "is",
+        "example": "Dit is mijn huis.",
+        "translation": "This is my house."
+      },
+      {
+        "dutch": "hij",
+        "english": "he",
+        "example": "Hij is mijn vriend.",
+        "translation": "He is my friend."
+      },
+      {
+        "dutch": "geeft les (lesgeven)",
+        "english": "teaches",
+        "example": "De docent geeft les.",
+        "translation": "The teacher teaches."
+      },
+      {
+        "dutch": "dagen (de dag)",
+        "english": "days",
+        "example": "De cursus duurt vijf dagen.",
+        "translation": "The course lasts five days."
+      },
+      {
+        "dutch": "drie",
+        "english": "three",
+        "example": "Ik heb drie honden.",
+        "translation": "I have three dogs."
+      },
+      {
+        "dutch": "we",
+        "english": "we",
+        "example": "We gaan naar school.",
+        "translation": "We are going to school."
+      },
+      {
+        "dutch": "beginnen (beginnen)",
+        "english": "begin / start",
+        "example": "De les begint nu.",
+        "translation": "The lesson begins now."
+      },
+      {
+        "dutch": "met",
+        "english": "with",
+        "example": "Ik ga met mijn vriend.",
+        "translation": "I am going with my friend."
+      },
+      {
+        "dutch": "kennismaken",
+        "english": "get to know",
+        "example": "Leuk je te ontmoeten, laten we kennismaken.",
+        "translation": "Nice to meet you, let's get to know each other."
+      },
+      {
+        "dutch": "wie",
+        "english": "who",
+        "example": "Wie is dat?",
+        "translation": "Who is that?"
+      },
+      {
+        "dutch": "ben (zijn)",
+        "english": "are",
+        "example": "Jij bent een student.",
+        "translation": "You are a student."
+      },
+      {
+        "dutch": "jij",
+        "english": "you",
+        "example": "Jij bent aardig.",
+        "translation": "You are nice."
+      },
+      {
+        "dutch": "wat",
+        "english": "what",
+        "example": "Wat is dat?",
+        "translation": "What is that?"
+      },
+      {
+        "dutch": "jouw",
+        "english": "your (singular)",
+        "example": "Dit is jouw boek.",
+        "translation": "This is your book."
+      },
+      {
+        "dutch": "de naam",
+        "english": "name",
+        "example": "Mijn naam is Jan.",
+        "translation": "My name is Jan."
+      },
+      {
+        "dutch": "mijn",
+        "english": "my",
+        "example": "Mijn huis is groot.",
+        "translation": "My house is big."
+      },
+      {
+        "dutch": "dag",
+        "english": "day",
+        "example": "Vandaag is een mooie dag.",
+        "translation": "Today is a beautiful day."
+      },
+      {
+        "dutch": "je",
+        "english": "your (singular)",
+        "example": "Waar is je huis?",
+        "translation": "Where is your house?"
+      },
+      {
+        "dutch": "de voornaam",
+        "english": "first name",
+        "example": "Mijn voornaam is Jan.",
+        "translation": "My first name is Jan."
+      },
+      {
+        "dutch": "de achternaam",
+        "english": "surname",
+        "example": "Mijn achternaam is Jansen.",
+        "translation": "My surname is Jansen."
+      },
+      {
+        "dutch": "uit",
+        "english": "from",
+        "example": "Ik kom uit Nederland.",
+        "translation": "I come from the Netherlands."
+      },
+      {
+        "dutch": "welk",
+        "english": "which",
+        "example": "Welk boek wil je?",
+        "translation": "Which book do you want?"
+      },
+      {
+        "dutch": "het land",
+        "english": "country",
+        "example": "Nederland is een mooi land.",
+        "translation": "The Netherlands is a beautiful country."
+      },
+      {
+        "dutch": "Engeland",
+        "english": "England",
+        "example": "Ik kom uit Engeland.",
+        "translation": "I come from England."
+      },
+      {
+        "dutch": "kom (komen)",
+        "english": "come",
+        "example": "Kom je mee?",
+        "translation": "Are you coming?"
+      },
+      {
+        "dutch": "de buurman",
+        "english": "neighbour",
+        "example": "Mijn buurman is aardig.",
+        "translation": "My neighbour is nice."
+      },
+      {
+        "dutch": "van",
+        "english": "of",
+        "example": "Het boek van Jan.",
+        "translation": "The book of Jan."
+      },
+      {
+        "dutch": "hoe",
+        "english": "how (what)",
+        "example": "Hoe heet jij?",
+        "translation": "What is your name?"
+      },
+      {
+        "dutch": "hoe heet jij?",
+        "english": "what's your name?",
+        "example": "Hoe heet jij?",
+        "translation": "What's your name?"
+      },
+      {
+        "dutch": "heet (heten)",
+        "english": "is called",
+        "example": "Hij heet Jan.",
+        "translation": "He is called Jan."
+      },
+      {
+        "dutch": "waar ... vandaan",
+        "english": "where ... from",
+        "example": "Waar kom je vandaan?",
+        "translation": "Where are you from?"
+      },
+      {
+        "dutch": "waar",
+        "english": "where",
+        "example": "Waar is het boek?",
+        "translation": "Where is the book?"
+      },
+      {
+        "dutch": "China",
+        "english": "China",
+        "example": "Ik kom uit China.",
+        "translation": "I come from China."
+      },
+      {
+        "dutch": "woon (wonen)",
+        "english": "live",
+        "example": "Ik woon in Amsterdam.",
+        "translation": "I live in Amsterdam."
+      },
+      {
+        "dutch": "nu",
+        "english": "now",
+        "example": "Ik ben nu thuis.",
+        "translation": "I am home now."
+      },
+      {
+        "dutch": "het adres",
+        "english": "address",
+        "example": "Wat is jouw adres?",
+        "translation": "What is your address?"
+      },
+      {
+        "dutch": "het nummer",
+        "english": "number",
+        "example": "Mijn telefoonnummer is 12345.",
+        "translation": "My phone number is 12345."
+      },
+      {
+        "dutch": "het antwoord",
+        "english": "answer",
+        "example": "Wat is het antwoord?",
+        "translation": "What is the answer?"
+      },
+      {
+        "dutch": "nee",
+        "english": "no",
+        "example": "Nee, dat is niet correct.",
+        "translation": "No, that is not correct."
+      },
+      {
+        "dutch": "de postcode",
+        "english": "postal code",
+        "example": "Wat is jouw postcode?",
+        "translation": "What is your postal code?"
+      },
+      {
+        "dutch": "u",
+        "english": "you",
+        "example": "Hoe gaat het met u?",
+        "translation": "How are you?"
+      },
+      {
+        "dutch": "mevrouw",
+        "english": "Ms / Mrs",
+        "example": "Mevrouw Jansen is mijn lerares.",
+        "translation": "Mrs. Jansen is my teacher."
+      },
+      {
+        "dutch": "woont (wonen)",
+        "english": "live",
+        "example": "Hij woont in Rotterdam.",
+        "translation": "He lives in Rotterdam."
+      },
+      {
+        "dutch": "ook",
+        "english": "also",
+        "example": "Ik wil ook een koffie.",
+        "translation": "I also want a coffee."
+      },
+      {
+        "dutch": "in",
+        "english": "in",
+        "example": "Ik woon in Nederland.",
+        "translation": "I live in the Netherlands."
+      },
+      {
+        "dutch": "zeg (zeggen)",
+        "english": "call (say)",
+        "example": "Zeg het nog een keer.",
+        "translation": "Say it one more time."
+      },
+      {
+        "dutch": "maar",
+        "english": "but (just)",
+        "example": "Ik wil gaan, maar ik kan niet.",
+        "translation": "I want to go, but I can't."
+      },
+      {
+        "dutch": "hoor",
+        "english": "(for friendliness, usually not translated)",
+        "example": "Ja hoor, dat klopt.",
+        "translation": "Yes, that's correct."
+      },
+      {
+        "dutch": "ja",
+        "english": "yes",
+        "example": "Ja, ik begrijp het.",
+        "translation": "Yes, I understand."
+      },
+      {
+        "dutch": "hier",
+        "english": "here",
+        "example": "Ik ben hier.",
+        "translation": "I am here."
+      },
+      {
+        "dutch": "al",
+        "english": "already",
+        "example": "Ik heb al gegeten.",
+        "translation": "I have already eaten."
+      },
+      {
+        "dutch": "twintig",
+        "english": "twenty",
+        "example": "Ik ben twintig jaar oud.",
+        "translation": "I am twenty years old."
+      },
+      {
+        "dutch": "het jaar",
+        "english": "year",
+        "example": "Het is een nieuw jaar.",
+        "translation": "It is a new year."
+      },
+      {
+        "dutch": "gaan verder (verdergaan)",
+        "english": "go on (continue)",
+        "example": "Laten we verdergaan met de les.",
+        "translation": "Let's continue with the lesson."
+      },
+      {
+        "dutch": "de les",
+        "english": "lesson",
+        "example": "De les is interessant.",
+        "translation": "The lesson is interesting."
+      },
+      {
+        "dutch": "heeft (hebben)",
+        "english": "has",
+        "example": "Zij heeft een kat.",
+        "translation": "She has a cat."
+      },
+      {
+        "dutch": "iedereen",
+        "english": "everyone",
+        "example": "Iedereen is hier welkom.",
+        "translation": "Everyone is welcome here."
+      },
+      {
+        "dutch": "het boek",
+        "english": "book",
+        "example": "Ik lees een boek.",
+        "translation": "I am reading a book."
+      },
+      {
+        "dutch": "het",
+        "english": "the",
+        "example": "Het boek is interessant.",
+        "translation": "The book is interesting."
+      },
+      {
+        "dutch": "de tekst",
+        "english": "text",
+        "example": "Lees de tekst.",
+        "translation": "Read the text."
+      },
+      {
+        "dutch": "één",
+        "english": "one",
+        "example": "Ik heb één appel.",
+        "translation": "I have one apple."
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "words": [
+      {
+        "dutch": "zitten (zitten)",
+        "english": "are sitting",
+        "example": "We zitten in de kantine.",
+        "translation": "We are sitting in the canteen."
+      },
+      {
+        "dutch": "de kantine",
+        "english": "canteen",
+        "example": "We eten in de kantine.",
+        "translation": "We eat in the canteen."
+      },
+      {
+        "dutch": "deze",
+        "english": "this",
+        "example": "Deze stoel is vrij.",
+        "translation": "This seat is free."
+      },
+      {
+        "dutch": "de plaats",
+        "english": "seat / place",
+        "example": "Neem plaats.",
+        "translation": "Take a seat."
+      },
+      {
+        "dutch": "vrij",
+        "english": "free",
+        "example": "Is deze stoel vrij?",
+        "translation": "Is this seat free?"
+      },
+      {
+        "dutch": "ja hoor",
+        "english": "yes",
+        "example": "Ja hoor, dat kan.",
+        "translation": "Yes, that's possible."
+      },
+      {
+        "dutch": "zo",
+        "english": "okay / right",
+        "example": "Zo, dat is klaar.",
+        "translation": "Okay, that is done."
+      },
+      {
+        "dutch": "een",
+        "english": "a(n)",
+        "example": "Ik heb een boek.",
+        "translation": "I have a book."
+      },
+      {
+        "dutch": "lekker",
+        "english": "nice / delicious",
+        "example": "Dit eten is lekker.",
+        "translation": "This food is delicious."
+      },
+      {
+        "dutch": "het kopje (de kop)",
+        "english": "cup",
+        "example": "Wil je een kopje koffie?",
+        "translation": "Do you want a cup of coffee?"
+      },
+      {
+        "dutch": "ik ben jarig (jarig zijn)",
+        "english": "it's my birthday",
+        "example": "Vandaag ben ik jarig.",
+        "translation": "Today is my birthday."
+      },
+      {
+        "dutch": "wat leuk",
+        "english": "how nice",
+        "example": "Wat leuk dat je komt!",
+        "translation": "How nice that you are coming!"
+      },
+      {
+        "dutch": "december",
+        "english": "December",
+        "example": "Ik ben jarig in december.",
+        "translation": "My birthday is in December."
+      },
+      {
+        "dutch": "dus",
+        "english": "so / therefore",
+        "example": "Het regent, dus ik blijf thuis.",
+        "translation": "It is raining, so I am staying home."
+      },
+      {
+        "dutch": "de winter",
+        "english": "winter",
+        "example": "In de winter is het koud.",
+        "translation": "In the winter it is cold."
+      },
+      {
+        "dutch": "krijg (krijgen)",
+        "english": "get / receive",
+        "example": "Ik krijg een cadeau.",
+        "translation": "I get a present."
+      },
+      {
+        "dutch": "nog",
+        "english": "any",
+        "example": "Heb je nog vragen?",
+        "translation": "Do you have any questions?"
+      },
+      {
+        "dutch": "het bezoek",
+        "english": "visit / visitors",
+        "example": "Het bezoek komt morgen.",
+        "translation": "The visitors are coming tomorrow."
+      },
+      {
+        "dutch": "de broer",
+        "english": "brother",
+        "example": "Mijn broer heet Jan.",
+        "translation": "My brother's name is Jan."
+      },
+      {
+        "dutch": "jonger (jong)",
+        "english": "younger",
+        "example": "Mijn zus is jonger dan ik.",
+        "translation": "My sister is younger than me."
+      },
+      {
+        "dutch": "maar",
+        "english": "but",
+        "example": "Ik wil komen, maar ik kan niet.",
+        "translation": "I want to come, but I can't."
+      },
+      {
+        "dutch": "wel",
+        "english": "certainly",
+        "example": "Ik kom wel.",
+        "translation": "I will certainly come."
+      },
+      {
+        "dutch": "langer (lang)",
+        "english": "taller",
+        "example": "Hij is langer dan ik.",
+        "translation": "He is taller than me."
+      },
+      {
+        "dutch": "nog meer",
+        "english": "any more",
+        "example": "Heb je nog meer vragen?",
+        "translation": "Do you have any more questions?"
+      },
+      {
+        "dutch": "broers (broer)",
+        "english": "brothers",
+        "example": "Ik heb twee broers.",
+        "translation": "I have two brothers."
+      },
+      {
+        "dutch": "zussen (zus)",
+        "english": "sisters",
+        "example": "Ik heb drie zussen.",
+        "translation": "I have three sisters."
+      },
+      {
+        "dutch": "de zus",
+        "english": "sister",
+        "example": "Mijn zus woont in Amsterdam.",
+        "translation": "My sister lives in Amsterdam."
+      },
+      {
+        "dutch": "nog",
+        "english": "as well",
+        "example": "Ik kom nog.",
+        "translation": "I am coming as well."
+      },
+      {
+        "dutch": "kijk (kijken)",
+        "english": "look",
+        "example": "Kijk eens naar dit boek.",
+        "translation": "Look at this book."
+      },
+      {
+        "dutch": "de foto",
+        "english": "photo",
+        "example": "Dit is een mooie foto.",
+        "translation": "This is a nice photo."
+      },
+      {
+        "dutch": "goh",
+        "english": "oh",
+        "example": "Goh, wat een verrassing!",
+        "translation": "Oh, what a surprise!"
+      },
+      {
+        "dutch": "heel",
+        "english": "very",
+        "example": "Ik ben heel blij.",
+        "translation": "I am very happy."
+      },
+      {
+        "dutch": "ander",
+        "english": "different / other",
+        "example": "Ik wil een ander boek lezen.",
+        "translation": "I want to read a different book."
+      },
+      {
+        "dutch": "het type",
+        "english": "type",
+        "example": "Welk type auto heb je?",
+        "translation": "What type of car do you have?"
+      },
+      {
+        "dutch": "kort",
+        "english": "short",
+        "example": "Mijn haar is kort.",
+        "translation": "My hair is short."
+      },
+      {
+        "dutch": "blond",
+        "english": "blonde",
+        "example": "Zij heeft blond haar.",
+        "translation": "She has blonde hair."
+      },
+      {
+        "dutch": "het haar",
+        "english": "hair",
+        "example": "Mijn haar is lang.",
+        "translation": "My hair is long."
+      },
+      {
+        "dutch": "donker",
+        "english": "dark",
+        "example": "Het is donker buiten.",
+        "translation": "It is dark outside."
+      },
+      {
+        "dutch": "de koffie",
+        "english": "coffee",
+        "example": "Wil je koffie drinken?",
+        "translation": "Do you want to drink coffee?"
+      },
+      {
+        "dutch": "al lang",
+        "english": "for a long time",
+        "example": "Ik wacht al lang.",
+        "translation": "I have been waiting for a long time."
+      },
+      {
+        "dutch": "pas",
+        "english": "only",
+        "example": "Ik ben pas begonnen.",
+        "translation": "I have only just started."
+      },
+      {
+        "dutch": "of",
+        "english": "or",
+        "example": "Wil je thee of koffie?",
+        "translation": "Do you want tea or coffee?"
+      },
+      {
+        "dutch": "welke",
+        "english": "what",
+        "example": "Welke kleur wil je?",
+        "translation": "What color do you want?"
+      },
+      {
+        "dutch": "eigenlijk",
+        "english": "actually / really",
+        "example": "Wat wil je eigenlijk doen?",
+        "translation": "What do you really want to do?"
+      },
+      {
+        "dutch": "vandaag",
+        "english": "today",
+        "example": "Vandaag is het mooi weer.",
+        "translation": "Today the weather is nice."
+      },
+      {
+        "dutch": "donderdag",
+        "english": "Thursday",
+        "example": "We hebben een afspraak op donderdag.",
+        "translation": "We have an appointment on Thursday."
+      },
+      {
+        "dutch": "augustus",
+        "english": "August",
+        "example": "Mijn vakantie is in augustus.",
+        "translation": "My vacation is in August."
+      },
+      {
+        "dutch": "morgen",
+        "english": "tomorrow",
+        "example": "Morgen gaan we naar het strand.",
+        "translation": "Tomorrow we are going to the beach."
+      },
+      {
+        "dutch": "de ouders",
+        "english": "parents",
+        "example": "Mijn ouders komen op bezoek.",
+        "translation": "My parents are coming to visit."
+      },
+      {
+        "dutch": "komen op bezoek (op bezoek komen)",
+        "english": "pay a visit",
+        "example": "Mijn vrienden komen op bezoek.",
+        "translation": "My friends are paying a visit."
+      },
+      {
+        "dutch": "op dit moment",
+        "english": "at the moment",
+        "example": "Ik ben druk op dit moment.",
+        "translation": "I am busy at the moment."
+      },
+      {
+        "dutch": "Indonesië",
+        "english": "Indonesia",
+        "example": "Ik ga op vakantie naar Indonesië.",
+        "translation": "I am going on holiday to Indonesia."
+      },
+      {
+        "dutch": "doen (doen)",
+        "english": "are doing",
+        "example": "Wat doen ze nu?",
+        "translation": "What are they doing now?"
+      },
+      {
+        "dutch": "daar",
+        "english": "there",
+        "example": "Ik zie je daar.",
+        "translation": "I see you there."
+      },
+      {
+        "dutch": "op vakantie",
+        "english": "on holiday",
+        "example": "Wij gaan op vakantie.",
+        "translation": "We are going on holiday."
+      },
+      {
+        "dutch": "de vakantie",
+        "english": "holiday",
+        "example": "Ik heb een lange vakantie.",
+        "translation": "I have a long holiday."
+      },
+      {
+        "dutch": "de vader",
+        "english": "father",
+        "example": "Mijn vader is thuis.",
+        "translation": "My father is at home."
+      },
+      {
+        "dutch": "voor",
+        "english": "for",
+        "example": "Dit cadeau is voor jou.",
+        "translation": "This present is for you."
+      },
+      {
+        "dutch": "zijn",
+        "english": "his",
+        "example": "Dit is zijn boek.",
+        "translation": "This is his book."
+      },
+      {
+        "dutch": "het werk",
+        "english": "work",
+        "example": "Ik ga naar het werk.",
+        "translation": "I am going to work."
+      },
+      {
+        "dutch": "het seizoen",
+        "english": "season",
+        "example": "De zomer is mijn favoriete seizoen.",
+        "translation": "Summer is my favorite season."
+      },
+      {
+        "dutch": "wanneer",
+        "english": "when",
+        "example": "Wanneer kom je?",
+        "translation": "When are you coming?"
+      },
+      {
+        "dutch": "de zomer",
+        "english": "summer",
+        "example": "Ik hou van de zomer.",
+        "translation": "I love summer."
+      },
+      {
+        "dutch": "weet (weten)",
+        "english": "know",
+        "example": "Ik weet het antwoord.",
+        "translation": "I know the answer."
+      },
+      {
+        "dutch": "niet",
+        "english": "not",
+        "example": "Ik weet het niet.",
+        "translation": "I don't know."
+      },
+      {
+        "dutch": "vertel (vertellen)",
+        "english": "tell",
+        "example": "Vertel me het verhaal.",
+        "translation": "Tell me the story."
+      },
+      {
+        "dutch": "eens",
+        "english": "(usually untranslated)",
+        "example": "Kom eens hier.",
+        "translation": "Come here."
+      },
+      {
+        "dutch": "over",
+        "english": "about",
+        "example": "We praten over het weer.",
+        "translation": "We talk about the weather."
+      },
+      {
+        "dutch": "de familie",
+        "english": "family",
+        "example": "Mijn familie is groot.",
+        "translation": "My family is large."
+      },
+      {
+        "dutch": "dat",
+        "english": "that",
+        "example": "Dat is mijn boek.",
+        "translation": "That is my book."
+      },
+      {
+        "dutch": "wil (willen)",
+        "english": "want / would like",
+        "example": "Ik wil een appel.",
+        "translation": "I want an apple."
+      },
+      {
+        "dutch": "laat",
+        "english": "late",
+        "example": "Ik ben laat.",
+        "translation": "I am late."
+      },
+      {
+        "dutch": "11.00 uur",
+        "english": "11 o'clock",
+        "example": "Het is 11.00 uur.",
+        "translation": "It is 11 o'clock."
+      },
+      {
+        "dutch": "moeten (moeten)",
+        "english": "should / have to",
+        "example": "Ik moet gaan.",
+        "translation": "I have to go."
+      },
+      {
+        "dutch": "weer",
+        "english": "again",
+        "example": "Ik ben weer terug.",
+        "translation": "I am back again."
+      },
+      {
+        "dutch": "naar",
+        "english": "to",
+        "example": "Ik ga naar huis.",
+        "translation": "I am going home."
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "words": [
+      {
+        "dutch": "viert (vieren)",
+        "english": "is celebrating",
+        "example": "Hij viert zijn verjaardag.",
+        "translation": "He is celebrating his birthday."
+      },
+      {
+        "dutch": "de verjaardag",
+        "english": "birthday",
+        "example": "Vandaag is mijn verjaardag.",
+        "translation": "Today is my birthday."
+      },
+      {
+        "dutch": "het café",
+        "english": "café / pub",
+        "example": "We ontmoeten elkaar in het café.",
+        "translation": "We meet each other in the café."
+      },
+      {
+        "dutch": "samen",
+        "english": "together",
+        "example": "We gaan samen naar het park.",
+        "translation": "We are going to the park together."
+      },
+      {
+        "dutch": "gefeliciteerd",
+        "english": "happy birthday",
+        "example": "Gefeliciteerd met je verjaardag!",
+        "translation": "Happy birthday!"
+      },
+      {
+        "dutch": "dank je wel",
+        "english": "thank you",
+        "example": "Dank je wel voor je hulp.",
+        "translation": "Thank you for your help."
+      },
+      {
+        "dutch": "dit is",
+        "english": "this is",
+        "example": "Dit is mijn vriend.",
+        "translation": "This is my friend."
+      },
+      {
+        "dutch": "prettig met je kennis te maken (kennismaken)",
+        "english": "pleased to meet you",
+        "example": "Prettig met je kennis te maken.",
+        "translation": "Pleased to meet you."
+      },
+      {
+        "dutch": "kennen (kennen)",
+        "english": "know (people)",
+        "example": "Ik ken haar al jaren.",
+        "translation": "I have known her for years."
+      },
+      {
+        "dutch": "elkaar",
+        "english": "one another",
+        "example": "Ze helpen elkaar.",
+        "translation": "They help one another."
+      },
+      {
+        "dutch": "drinken",
+        "english": "drink",
+        "example": "We gaan iets drinken.",
+        "translation": "We are going to drink something."
+      },
+      {
+        "dutch": "ik trakteer (trakteren)",
+        "english": "it's my treat",
+        "example": "Laten we iets eten, ik trakteer.",
+        "translation": "Let's eat something, it's my treat."
+      },
+      {
+        "dutch": "wil graag (graag willen)",
+        "english": "would like",
+        "example": "Ik wil graag een cola.",
+        "translation": "I would like a cola."
+      },
+      {
+        "dutch": "de cola",
+        "english": "cola",
+        "example": "Hij drinkt een cola.",
+        "translation": "He is drinking a cola."
+      },
+      {
+        "dutch": "biertje (het bier)",
+        "english": "beer",
+        "example": "Mag ik een biertje alstublieft?",
+        "translation": "May I have a beer, please?"
+      },
+      {
+        "dutch": "neem (nemen)",
+        "english": "have (take)",
+        "example": "Neem een stoel.",
+        "translation": "Take a seat."
+      },
+      {
+        "dutch": "rode (rood)",
+        "english": "red",
+        "example": "Ik heb een rode auto.",
+        "translation": "I have a red car."
+      },
+      {
+        "dutch": "de wijn",
+        "english": "wine",
+        "example": "Ik drink graag wijn.",
+        "translation": "I like to drink wine."
+      },
+      {
+        "dutch": "roep (roepen)",
+        "english": "call",
+        "example": "Ik roep de ober.",
+        "translation": "I call the waiter."
+      },
+      {
+        "dutch": "de ober",
+        "english": "waiter",
+        "example": "De ober komt naar onze tafel.",
+        "translation": "The waiter is coming to our table."
+      },
+      {
+        "dutch": "mag (mogen)",
+        "english": "may",
+        "example": "Mag ik naar het toilet?",
+        "translation": "May I go to the bathroom?"
+      },
+      {
+        "dutch": "bestellen",
+        "english": "order",
+        "example": "Wij willen nu bestellen.",
+        "translation": "We would like to order now."
+      },
+      {
+        "dutch": "alstublieft",
+        "english": "please",
+        "example": "Een koffie alstublieft.",
+        "translation": "A coffee, please."
+      },
+      {
+        "dutch": "Franse (Frans)",
+        "english": "French",
+        "example": "Ik hou van Franse kaas.",
+        "translation": "I love French cheese."
+      },
+      {
+        "dutch": "Spaanse (Spaans)",
+        "english": "Spanish",
+        "example": "Ze spreekt Spaanse taal.",
+        "translation": "She speaks Spanish."
+      },
+      {
+        "dutch": "Zuid-Afrikaanse (Zuid-Afrikaans)",
+        "english": "South African",
+        "example": "Hij heeft Zuid-Afrikaanse vrienden.",
+        "translation": "He has South African friends."
+      },
+      {
+        "dutch": "de",
+        "english": "the",
+        "example": "De kat is op de tafel.",
+        "translation": "The cat is on the table."
+      },
+      {
+        "dutch": "nou",
+        "english": "well then",
+        "example": "Nou, laten we gaan.",
+        "translation": "Well then, let's go."
+      },
+      {
+        "dutch": "proost",
+        "english": "cheers",
+        "example": "Proost op je gezondheid!",
+        "translation": "Cheers to your health!"
+      },
+      {
+        "dutch": "op je verjaardag",
+        "english": "happy birthday",
+        "example": "Proost op je verjaardag!",
+        "translation": "Happy birthday!"
+      },
+      {
+        "dutch": "bedankt",
+        "english": "thanks",
+        "example": "Bedankt voor je hulp.",
+        "translation": "Thanks for your help."
+      },
+      {
+        "dutch": "het poosje",
+        "english": "short while",
+        "example": "Wacht een poosje.",
+        "translation": "Wait a short while."
+      },
+      {
+        "dutch": "later (laat)",
+        "english": "later",
+        "example": "Ik zie je later.",
+        "translation": "I will see you later."
+      },
+      {
+        "dutch": "zullen (zullen)",
+        "english": "shall",
+        "example": "We zullen samen gaan.",
+        "translation": "We shall go together."
+      },
+      {
+        "dutch": "nog een keer",
+        "english": "once more",
+        "example": "Speel het nog een keer.",
+        "translation": "Play it once more."
+      },
+      {
+        "dutch": "dat is",
+        "english": "that is",
+        "example": "Dat is mijn boek.",
+        "translation": "That is my book."
+      },
+      {
+        "dutch": "goed",
+        "english": "good",
+        "example": "Het gaat goed met me.",
+        "translation": "I am doing good."
+      },
+      {
+        "dutch": "het idee",
+        "english": "idea",
+        "example": "Dat is een goed idee.",
+        "translation": "That is a good idea."
+      },
+      {
+        "dutch": "hetzelfde",
+        "english": "the same",
+        "example": "Ik wil hetzelfde als jij.",
+        "translation": "I want the same as you."
+      },
+      {
+        "dutch": "ja, graag",
+        "english": "yes please",
+        "example": "Wil je koffie? Ja, graag.",
+        "translation": "Would you like coffee? Yes please."
+      },
+      {
+        "dutch": "dit",
+        "english": "this",
+        "example": "Dit is mijn huis.",
+        "translation": "This is my house."
+      },
+      {
+        "dutch": "het rondje",
+        "english": "round",
+        "example": "Ik betaal dit rondje.",
+        "translation": "I am paying this round."
+      },
+      {
+        "dutch": "betaal (betalen)",
+        "english": "pay",
+        "example": "Ik betaal de rekening.",
+        "translation": "I am paying the bill."
+      },
+      {
+        "dutch": "geef (geven)",
+        "english": "give",
+        "example": "Geef me de pen.",
+        "translation": "Give me the pen."
+      },
+      {
+        "dutch": "nog maar",
+        "english": "another",
+        "example": "Ik wil nog maar een kop koffie.",
+        "translation": "I would like another cup of coffee."
+      },
+      {
+        "dutch": "het glas",
+        "english": "glass",
+        "example": "Het glas is leeg.",
+        "translation": "The glass is empty."
+      },
+      {
+        "dutch": "afrekenen",
+        "english": "pay / settle the bill",
+        "example": "We moeten nog afrekenen.",
+        "translation": "We still need to settle the bill."
+      },
+      {
+        "dutch": "alles",
+        "english": "everything",
+        "example": "Alles is klaar.",
+        "translation": "Everything is ready."
+      },
+      {
+        "dutch": "daarom",
+        "english": "that's why",
+        "example": "Ik ben moe, daarom ga ik slapen.",
+        "translation": "I am tired, that's why I am going to sleep."
+      },
+      {
+        "dutch": "eerste",
+        "english": "first",
+        "example": "Hij is de eerste in de rij.",
+        "translation": "He is the first in line."
+      },
+      {
+        "dutch": "tweede",
+        "english": "second",
+        "example": "Zij kwam als tweede aan.",
+        "translation": "She arrived second."
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "words": [
+      {
+        "dutch": "de straat",
+        "english": "street",
+        "example": "Ik loop op de straat.",
+        "translation": "I walk on the street."
+      },
+      {
+        "dutch": "vriend",
+        "english": "friend",
+        "example": "Hij is mijn vriend.",
+        "translation": "He is my friend."
+      },
+      {
+        "dutch": "komt tegen",
+        "english": "meets",
+        "example": "Hij komt zijn vriend tegen.",
+        "translation": "He meets his friend."
+      },
+      {
+        "dutch": "hé",
+        "english": "hey",
+        "example": "Hé, hoe gaat het?",
+        "translation": "Hey, how are you?"
+      },
+      {
+        "dutch": "geleden",
+        "english": "ago",
+        "example": "Twee jaar geleden.",
+        "translation": "Two years ago."
+      },
+      {
+        "dutch": "leuk",
+        "english": "nice",
+        "example": "Dat is een leuk idee.",
+        "translation": "That is a nice idea."
+      },
+      {
+        "dutch": "prima",
+        "english": "wonderful",
+        "example": "Het gaat prima.",
+        "translation": "It's going wonderful."
+      },
+      {
+        "dutch": "de week",
+        "english": "week",
+        "example": "Volgende week is druk.",
+        "translation": "Next week is busy."
+      },
+      {
+        "dutch": "een paar dagen",
+        "english": "a few days",
+        "example": "Ik blijf hier een paar dagen.",
+        "translation": "I stay here for a few days."
+      },
+      {
+        "dutch": "Venetië",
+        "english": "Venice",
+        "example": "We gaan naar Venetië.",
+        "translation": "We are going to Venice."
+      },
+      {
+        "dutch": "wauw",
+        "english": "wow",
+        "example": "Wauw, dat is geweldig!",
+        "translation": "Wow, that is amazing!"
+      },
+      {
+        "dutch": "prachtig",
+        "english": "fine / splendid",
+        "example": "Het weer is prachtig.",
+        "translation": "The weather is splendid."
+      },
+      {
+        "dutch": "veel",
+        "english": "many",
+        "example": "Ik heb veel vrienden.",
+        "translation": "I have many friends."
+      },
+      {
+        "dutch": "foto’s maken",
+        "english": "take photos",
+        "example": "Ik ga foto’s maken.",
+        "translation": "I am going to take photos."
+      },
+      {
+        "dutch": "sinds",
+        "english": "since",
+        "example": "Ik woon hier sinds januari.",
+        "translation": "I have lived here since January."
+      },
+      {
+        "dutch": "nieuw",
+        "english": "new",
+        "example": "Dit is mijn nieuwe auto.",
+        "translation": "This is my new car."
+      },
+      {
+        "dutch": "de camera",
+        "english": "camera",
+        "example": "Mijn camera is kapot.",
+        "translation": "My camera is broken."
+      },
+      {
+        "dutch": "romantische",
+        "english": "romantic",
+        "example": "Het is een romantische film.",
+        "translation": "It is a romantic film."
+      },
+      {
+        "dutch": "de film",
+        "english": "film",
+        "example": "We kijken een film.",
+        "translation": "We are watching a film."
+      },
+      {
+        "dutch": "na",
+        "english": "after",
+        "example": "Na het werk ga ik naar huis.",
+        "translation": "After work, I go home."
+      },
+      {
+        "dutch": "kijken naar",
+        "english": "look at",
+        "example": "Kijk naar die vogel.",
+        "translation": "Look at that bird."
+      },
+      {
+        "dutch": "direct",
+        "english": "right now",
+        "example": "Ik heb het direct nodig.",
+        "translation": "I need it right now."
+      },
+      {
+        "dutch": "iets",
+        "english": "something",
+        "example": "Ik heb iets voor je.",
+        "translation": "I have something for you."
+      },
+      {
+        "dutch": "afspreken",
+        "english": "set a date / make an appointment",
+        "example": "We moeten een afspraak afspreken.",
+        "translation": "We need to set a date."
+      },
+      {
+        "dutch": "goed",
+        "english": "okay",
+        "example": "Het gaat goed.",
+        "translation": "It's going okay."
+      },
+      {
+        "dutch": "thuis",
+        "english": "at home",
+        "example": "Ik ben thuis.",
+        "translation": "I am at home."
+      },
+      {
+        "dutch": "de afspraak",
+        "english": "date / appointment",
+        "example": "Ik heb een afspraak bij de dokter.",
+        "translation": "I have an appointment with the doctor."
+      },
+      {
+        "dutch": "maken",
+        "english": "to make",
+        "example": "Ik ga een taart maken.",
+        "translation": "I am going to make a cake."
+      },
+      {
+        "dutch": "de datum",
+        "english": "date",
+        "example": "De datum van het feest is 12 juni.",
+        "translation": "The date of the party is June 12."
+      },
+      {
+        "dutch": "dat lukt niet",
+        "english": "that doesn’t work",
+        "example": "Dat lukt niet voor mij.",
+        "translation": "That doesn't work for me."
+      },
+      {
+        "dutch": "jou",
+        "english": "you",
+        "example": "Ik zie jou morgen.",
+        "translation": "I'll see you tomorrow."
+      },
+      {
+        "dutch": "het gaat wel",
+        "english": "all right",
+        "example": "Met mij gaat het wel.",
+        "translation": "I am doing all right."
+      },
+      {
+        "dutch": "problemen",
+        "english": "problems",
+        "example": "Ik heb problemen met mijn auto.",
+        "translation": "I have problems with my car."
+      },
+      {
+        "dutch": "buren",
+        "english": "neighbours",
+        "example": "Mijn buren zijn vriendelijk.",
+        "translation": "My neighbours are friendly."
+      },
+      {
+        "dutch": "niet zo",
+        "english": "not so",
+        "example": "Het is niet zo moeilijk.",
+        "translation": "It is not so difficult."
+      },
+      {
+        "dutch": "belangrijk",
+        "english": "important",
+        "example": "Het is belangrijk om te leren.",
+        "translation": "It is important to learn."
+      },
+      {
+        "dutch": "gaan",
+        "english": "go",
+        "example": "Ik ga naar de winkel.",
+        "translation": "I go to the store."
+      },
+      {
+        "dutch": "dan",
+        "english": "then",
+        "example": "Dan gaan we eten.",
+        "translation": "Then we will eat."
+      },
+      {
+        "dutch": "kan",
+        "english": "can",
+        "example": "Ik kan zwemmen.",
+        "translation": "I can swim."
+      },
+      {
+        "dutch": "blijf",
+        "english": "stay",
+        "example": "Ik blijf thuis.",
+        "translation": "I stay at home."
+      },
+      {
+        "dutch": "eten",
+        "english": "eat",
+        "example": "We gaan pizza eten.",
+        "translation": "We are going to eat pizza."
+      },
+      {
+        "dutch": "zal",
+        "english": "will / shall",
+        "example": "Ik zal het doen.",
+        "translation": "I will do it."
+      },
+      {
+        "dutch": "de spaghetti",
+        "english": "spaghetti",
+        "example": "Ik maak spaghetti voor het diner.",
+        "translation": "I make spaghetti for dinner."
+      },
+      {
+        "dutch": "carbonara",
+        "english": "carbonara",
+        "example": "Ik hou van spaghetti carbonara.",
+        "translation": "I love spaghetti carbonara."
+      },
+      {
+        "dutch": "het plan",
+        "english": "plan",
+        "example": "We hebben een plan.",
+        "translation": "We have a plan."
+      },
+      {
+        "dutch": "schrijf",
+        "english": "write",
+        "example": "Ik schrijf een brief.",
+        "translation": "I am writing a letter."
+      },
+      {
+        "dutch": "de agenda",
+        "english": "diary",
+        "example": "Ik schrijf in mijn agenda.",
+        "translation": "I write in my diary."
+      },
+      {
+        "dutch": "hartstikke",
+        "english": "very / completely",
+        "example": "Ik ben hartstikke moe.",
+        "translation": "I am very tired."
+      },
+      {
+        "dutch": "hartstikke leuk",
+        "english": "terrific / fantastic",
+        "example": "Het feest was hartstikke leuk.",
+        "translation": "The party was fantastic."
+      },
+      {
+        "dutch": "vind ik ook",
+        "english": "I think so too",
+        "example": "Dat vind ik ook.",
+        "translation": "I think so too."
+      },
+      {
+        "dutch": "ik moet ervandoor",
+        "english": "I have to go",
+        "example": "Sorry, ik moet ervandoor.",
+        "translation": "Sorry, I have to go."
+      },
+      {
+        "dutch": "ervandoor",
+        "english": "away / off",
+        "example": "Hij is ervandoor gegaan.",
+        "translation": "He went away."
+      },
+      {
+        "dutch": "gauw",
+        "english": "quickly",
+        "example": "Kom gauw terug.",
+        "translation": "Come back quickly."
+      },
+      {
+        "dutch": "de winkel",
+        "english": "shop",
+        "example": "Ik ga naar de winkel.",
+        "translation": "I am going to the shop."
+      },
+      {
+        "dutch": "wens",
+        "english": "wish",
+        "example": "Ik wens je veel geluk.",
+        "translation": "I wish you good luck."
+      },
+      {
+        "dutch": "jullie",
+        "english": "you",
+        "example": "Jullie zijn geweldig.",
+        "translation": "You are great."
+      },
+      {
+        "dutch": "fijne",
+        "english": "nice / good",
+        "example": "Fijne dag!",
+        "translation": "Have a nice day!"
+      },
+      {
+        "dutch": "doe de groeten aan",
+        "english": "give my regards to",
+        "example": "Doe de groeten aan je moeder.",
+        "translation": "Give my regards to your mother."
+      },
+      {
+        "dutch": "volgende",
+        "english": "next",
+        "example": "Volgende week ben ik vrij.",
+        "translation": "Next week I am free."
+      },
+      {
+        "dutch": "tot dan",
+        "english": "until then",
+        "example": "Tot dan!",
+        "translation": "Until then!"
+      }
+    ]
+  }
+]
