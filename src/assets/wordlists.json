@@ -1,5 +1,88 @@
 [
   {
+    "lesson": 0,
+    "words": [
+      {
+        "dutch": "ik moet",
+        "english": "I have to",
+        "example": "Ik moet naar de winkel gaan.",
+        "translation": "I have to go to the store."
+      },
+      {
+        "dutch": "ik moest",
+        "english": "I had to",
+        "example": "Ik moest gisteren laat werken.",
+        "translation": "I had to work late yesterday."
+      },
+      {
+        "dutch": "erger",
+        "english": "worse",
+        "example": "Het weer wordt erger.",
+        "translation": "The weather is getting worse."
+      },
+      {
+        "dutch": "bewegen",
+        "english": "move",
+        "example": "Je moet meer bewegen voor een goede gezondheid.",
+        "translation": "You need to move more for good health."
+      },
+      {
+        "dutch": "vaak",
+        "english": "often",
+        "example": "Hij gaat vaak naar het park.",
+        "translation": "He often goes to the park."
+      },
+      {
+        "dutch": "de enige",
+        "english": "the only",
+        "example": "Zij is de enige persoon die ik ken.",
+        "translation": "She is the only person I know."
+      },
+      {
+        "dutch": "keer",
+        "english": "time",
+        "example": "Dit is de eerste keer dat ik hier ben.",
+        "translation": "This is the first time I am here."
+      },
+      {
+        "dutch": "wachten",
+        "english": "wait",
+        "example": "Ik moet op de bus wachten.",
+        "translation": "I have to wait for the bus."
+      },
+      {
+        "dutch": "altijd",
+        "english": "always",
+        "example": "Zij is altijd op tijd.",
+        "translation": "She is always on time."
+      },
+      {
+        "dutch": "wolk",
+        "english": "cloud",
+        "example": "Er is een grote wolk in de lucht.",
+        "translation": "There is a big cloud in the sky."
+      },
+      {
+        "dutch": "praat",
+        "english": "talk",
+        "example": "Hij praat graag met zijn vrienden.",
+        "translation": "He likes to talk with his friends."
+      },
+      {
+        "dutch": "vieren",
+        "english": "celebrate",
+        "example": "We gaan zijn verjaardag vieren.",
+        "translation": "We are going to celebrate his birthday."
+      },
+      {
+        "dutch": "moe",
+        "english": "tired",
+        "example": "Ik ben moe na een lange dag werken.",
+        "translation": "I am tired after a long day of work."
+      }
+    ]
+  },
+  {
     "lesson": 1,
     "words": [
       {

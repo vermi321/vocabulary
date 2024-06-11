@@ -177,7 +177,7 @@ export const App = () => {
     const storedNumber = Number(localStorage.lesson);
     const allLessons = wordlist.map((entry) => entry.lesson);
     const latestLesson = Math.max(...allLessons);
-    return storedNumber && allLessons.includes(storedNumber)
+    return storedNumber >= 0 && allLessons.includes(storedNumber)
       ? storedNumber
       : latestLesson;
   });
