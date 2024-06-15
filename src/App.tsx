@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import wordlist from "./assets/wordlists.json";
 import {
   Box,
@@ -58,7 +58,9 @@ const LessonSettings = ({
               }}
             >
               {wordlist.map((entry) => (
-                <MenuItem value={entry.lesson}>Lesson {entry.lesson}</MenuItem>
+                <MenuItem key={entry.lesson} value={entry.lesson}>
+                  Lesson {entry.lesson}
+                </MenuItem>
               ))}
             </Select>
           </Box>
@@ -99,31 +101,49 @@ const Word = ({
   setChecked: (checked: boolean) => void;
   onPlay: () => void;
 }) => {
-  return (
-    <Box
-      onClick={onPlay}
-      sx={{
-        cursor: "pointer",
-        "&:hover": {
-          "& .pronounciation": {
-            color: "#333",
-          },
+  const wordRef = useRef<HTMLElement>();
+  const isActiveRef = useRef<boolean>(false);
+  const [isActive, setActive] = useState(false);
+
+  useEffect(() => {
+    isActiveRef.current = isActive;
+  }, [isActive]);
+
+  useEffect(() => {
+    if (mode !== Mode.Check) return;
+    const onMouseLeave = () => setActive(false);
+    const onMouseMove = () => {
+      if (!isActiveRef.current) {
+        setActive(true);
+      }
+    };
+    wordRef.current?.addEventListener("mousemove", onMouseMove);
+    wordRef.current?.addEventListener("mouseleave", onMouseLeave);
+    return () => {
+      wordRef.current?.removeEventListener("mousemove", onMouseMove);
+      wordRef.current?.removeEventListener("mouseleave", onMouseLeave);
+    };
+  }, [mode]);
+
+  const sx = useMemo(
+    () => ({
+      cursor: "pointer",
+      "&:hover": {
+        "& .pronounciation": {
+          color: "#333",
         },
-        ...(mode === Mode.Check && {
-          "& .translation": {
-            visibility: "hidden",
-          },
-          "&:hover": {
-            "& .translation": {
-              visibility: "visible",
-            },
-            "& .pronounciation": {
-              color: "#333",
-            },
-          },
-        }),
-      }}
-    >
+      },
+      ...(mode === Mode.Check && {
+        "& .translation": {
+          visibility: isActive ? "visible" : "hidden",
+        },
+      }),
+    }),
+    [mode, isActive]
+  );
+
+  return (
+    <Box ref={wordRef} onClick={onPlay} sx={sx}>
       <Card variant="outlined" sx={{ position: "relative" }}>
         <CardContent>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -136,7 +156,7 @@ const Word = ({
               sx={{ display: "flex", alignItems: "center" }}
             >
               <Box>{word.dutch}</Box>
-              <Icon sx={{ fontSize: 24, marginLeft: "4px" }} onClick={onPlay}>
+              <Icon sx={{ fontSize: 24, marginLeft: "4px" }}>
                 <PlayCircleOutlineIcon
                   className="pronounciation"
                   fontSize="inherit"
@@ -154,7 +174,10 @@ const Word = ({
                   fontSize: 44,
                   color: checked ? "#16b06c" : "#ddd",
                 }}
-                onClick={() => setChecked(!checked)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setChecked(!checked);
+                }}
               >
                 {checked ? (
                   <CheckCircleIcon fontSize="inherit" />
@@ -254,6 +277,7 @@ export const App = () => {
                 {words.map((word) => (
                   <Grid xs={12}>
                     <Word
+                      key={`${word.dutch}:${word.english}`}
                       word={word}
                       mode={mode}
                       checked={isWordLearnt(word)}
