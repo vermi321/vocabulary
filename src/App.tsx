@@ -251,13 +251,9 @@ export const App = () => {
   }, []);
 
   const onPlay = useCallback((word: Word) => {
-    fetch(`https://glosbe.com/api/audios/nl/${encodeURIComponent(word.dutch)}`)
+    fetch(`/api/glosbe?word=${encodeURIComponent(word.dutch)}`)
       .then((r) => r.json())
-      .then((r) =>
-        setAudioSrc(
-          `https://glosbe.com/fb_aud/mp3/${r.phraseAudioCarrier.audioEntries[0].url.mp3}`
-        )
-      )
+      .then(({ mp3 }) => setAudioSrc(mp3))
       .catch(() => {});
   }, []);
 

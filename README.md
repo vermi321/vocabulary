@@ -1,6 +1,6 @@
 ## Vocabulary
 
-https://vermi321.github.io/vocabulary/
+https://nederlands-in-gang.vercel.app/
 
 ### ChatGPT queries
 
