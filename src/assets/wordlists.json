@@ -79,6 +79,288 @@
         "english": "tired",
         "example": "Ik ben moe na een lange dag werken.",
         "translation": "I am tired after a long day of work."
+      },
+      {
+        "dutch": "die",
+        "english": "that",
+        "example": "Die man is mijn vader.",
+        "translation": "That man is my father."
+      },
+      {
+        "dutch": "doel",
+        "english": "goal",
+        "example": "Mijn doel is om Nederlands te leren.",
+        "translation": "My goal is to learn Dutch."
+      },
+      {
+        "dutch": "beginnen",
+        "english": "begin",
+        "example": "Laten we beginnen met de les.",
+        "translation": "Let's begin the lesson."
+      },
+      {
+        "dutch": "blijken",
+        "english": "appear",
+        "example": "Het blijkt dat hij gelijk had.",
+        "translation": "It appears that he was right."
+      },
+      {
+        "dutch": "besluiten",
+        "english": "decide",
+        "example": "We besluiten om thuis te blijven.",
+        "translation": "We decide to stay at home."
+      },
+      {
+        "dutch": "durven",
+        "english": "dare",
+        "example": "Durf je dat te doen?",
+        "translation": "Do you dare to do that?"
+      },
+      {
+        "dutch": "hoeven",
+        "english": "need",
+        "example": "Je hoeft niet te komen als je niet wilt.",
+        "translation": "You don't need to come if you don't want to."
+      },
+      {
+        "dutch": "lijken",
+        "english": "seem",
+        "example": "Het lijkt erop dat het gaat regenen.",
+        "translation": "It seems like it's going to rain."
+      },
+      {
+        "dutch": "proberen",
+        "english": "try",
+        "example": "Ik probeer een nieuwe taal te leren.",
+        "translation": "I am trying to learn a new language."
+      },
+      {
+        "dutch": "verbieden",
+        "english": "forbid",
+        "example": "Roken is hier verboden.",
+        "translation": "Smoking is forbidden here."
+      },
+      {
+        "dutch": "vergeten",
+        "english": "forget",
+        "example": "Ik vergeet altijd mijn sleutels.",
+        "translation": "I always forget my keys."
+      },
+      {
+        "dutch": "weigeren",
+        "english": "refuse",
+        "example": "Hij weigert om te helpen.",
+        "translation": "He refuses to help."
+      },
+      {
+        "dutch": "achten",
+        "english": "consider",
+        "example": "Ik acht hem betrouwbaar.",
+        "translation": "I consider him reliable."
+      },
+      {
+        "dutch": "horen",
+        "english": "hear",
+        "example": "Ik hoor een vreemd geluid.",
+        "translation": "I hear a strange sound."
+      },
+      {
+        "dutch": "beloven",
+        "english": "promise",
+        "example": "Ik beloof om op tijd te zijn.",
+        "translation": "I promise to be on time."
+      },
+      {
+        "dutch": "beogen",
+        "english": "aim",
+        "example": "Hij beoogt een hoge positie te bereiken.",
+        "translation": "He aims to reach a high position."
+      },
+      {
+        "dutch": "bevelen",
+        "english": "command",
+        "example": "De generaal beveelt de troepen om aan te vallen.",
+        "translation": "The general commands the troops to attack."
+      },
+      {
+        "dutch": "beweren",
+        "english": "claim",
+        "example": "Zij beweert dat ze de beste is.",
+        "translation": "She claims that she is the best."
+      },
+      {
+        "dutch": "denken",
+        "english": "think",
+        "example": "Ik denk dat het een goed idee is.",
+        "translation": "I think it is a good idea."
+      },
+      {
+        "dutch": "dienen",
+        "english": "serve",
+        "example": "Dit plan dient het algemeen belang.",
+        "translation": "This plan serves the public interest."
+      },
+      {
+        "dutch": "dreigen",
+        "english": "threaten",
+        "example": "Hij dreigt met ontslag te nemen.",
+        "translation": "He threatens to resign."
+      },
+      {
+        "dutch": "dwingen",
+        "english": "force",
+        "example": "De situatie dwingt ons om maatregelen te nemen.",
+        "translation": "The situation forces us to take action."
+      },
+      {
+        "dutch": "eisen",
+        "english": "demand",
+        "example": "De werknemers eisen betere arbeidsomstandigheden.",
+        "translation": "The workers demand better working conditions."
+      },
+      {
+        "dutch": "gebieden",
+        "english": "order",
+        "example": "De rechter gebiedt hem om te stoppen.",
+        "translation": "The judge orders him to stop."
+      },
+      {
+        "dutch": "gelasten",
+        "english": "order",
+        "example": "De burgemeester gelast de evacuatie.",
+        "translation": "The mayor orders the evacuation."
+      },
+      {
+        "dutch": "geloven",
+        "english": "believe",
+        "example": "Ik geloof in eerlijkheid.",
+        "translation": "I believe in honesty."
+      },
+      {
+        "dutch": "hopen",
+        "english": "hope",
+        "example": "Ik hoop dat het goed gaat.",
+        "translation": "I hope it goes well."
+      },
+      {
+        "dutch": "komen",
+        "english": "come",
+        "example": "Kom je naar het feest?",
+        "translation": "Are you coming to the party?"
+      },
+      {
+        "dutch": "leren",
+        "english": "learn",
+        "example": "Ik wil een nieuwe taal leren.",
+        "translation": "I want to learn a new language."
+      },
+      {
+        "dutch": "menen",
+        "english": "mean",
+        "example": "Ik meen wat ik zeg.",
+        "translation": "I mean what I say."
+      },
+      {
+        "dutch": "plegen",
+        "english": "commit",
+        "example": "Hij pleegt elke ochtend dezelfde routine.",
+        "translation": "He commits to the same routine every morning."
+      },
+      {
+        "dutch": "pogen",
+        "english": "attempt",
+        "example": "Ze poogde het probleem op te lossen.",
+        "translation": "She attempted to solve the problem."
+      },
+      {
+        "dutch": "schijnen",
+        "english": "seem",
+        "example": "Het schijnt een goed idee te zijn.",
+        "translation": "It seems to be a good idea."
+      },
+      {
+        "dutch": "trachten",
+        "english": "attempt",
+        "example": "Hij trachtte een nieuw record te vestigen.",
+        "translation": "He attempted to set a new record."
+      },
+      {
+        "dutch": "vallen",
+        "english": "fall",
+        "example": "De bladeren vallen in de herfst.",
+        "translation": "The leaves fall in the autumn."
+      },
+      {
+        "dutch": "verklaren",
+        "english": "declare",
+        "example": "De minister verklaart de vergadering geopend.",
+        "translation": "The minister declares the meeting open."
+      },
+      {
+        "dutch": "verlangen",
+        "english": "desire",
+        "example": "Ik verlang naar rust.",
+        "translation": "I desire peace."
+      },
+      {
+        "dutch": "verplichten",
+        "english": "oblige",
+        "example": "De wet verplicht ons om belasting te betalen.",
+        "translation": "The law obliges us to pay taxes."
+      },
+      {
+        "dutch": "verzuimen",
+        "english": "fail",
+        "example": "Hij verzuimt zijn plichten.",
+        "translation": "He fails his duties."
+      },
+      {
+        "dutch": "vinden",
+        "english": "find",
+        "example": "Ik kan mijn sleutels niet vinden.",
+        "translation": "I can't find my keys."
+      },
+      {
+        "dutch": "vóórkomen",
+        "english": "occur",
+        "example": "Dit probleem komt vaak voor.",
+        "translation": "This problem occurs often."
+      },
+      {
+        "dutch": "vragen",
+        "english": "ask",
+        "example": "Mag ik je iets vragen?",
+        "translation": "May I ask you something?"
+      },
+      {
+        "dutch": "vrezen",
+        "english": "fear",
+        "example": "Ik vrees dat we te laat zijn.",
+        "translation": "I fear that we are too late."
+      },
+      {
+        "dutch": "wagen",
+        "english": "dare",
+        "example": "Durf je het te wagen?",
+        "translation": "Do you dare to risk it?"
+      },
+      {
+        "dutch": "wensen",
+        "english": "wish",
+        "example": "Ik wens je een fijne dag.",
+        "translation": "I wish you a nice day."
+      },
+      {
+        "dutch": "zeggen",
+        "english": "say",
+        "example": "Wat zei je?",
+        "translation": "What did you say?"
+      },
+      {
+        "dutch": "zien",
+        "english": "see",
+        "example": "Ik zie de zon opkomen.",
+        "translation": "I see the sun rising."
       }
     ]
   },
