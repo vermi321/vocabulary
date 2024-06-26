@@ -361,6 +361,24 @@
         "english": "see",
         "example": "Ik zie de zon opkomen.",
         "translation": "I see the sun rising."
+      },
+      {
+        "dutch": "het geheim",
+        "english": "secret",
+        "example": "Hij vertelde me een groot geheim.",
+        "translation": "He told me a big secret."
+      },
+      {
+        "dutch": "de verrassing",
+        "english": "surprise",
+        "example": "De verjaardagstaart was een grote verrassing.",
+        "translation": "The birthday cake was a big surprise."
+      },
+      {
+        "dutch": "bioscoop",
+        "english": "cinema",
+        "example": "We gaan vanavond naar de bioscoop.",
+        "translation": "We are going to the cinema tonight."
       }
     ]
   },
