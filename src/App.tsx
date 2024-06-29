@@ -264,7 +264,7 @@ export const App = () => {
   const onPlay = useCallback((word: Word) => {
     fetch(`/api/glosbe?word=${encodeURIComponent(word.dutch)}`)
       .then((r) => r.json())
-      .then(({ mp3 }) => setAudioSrc(mp3))
+      .then(({ mp3 }) => setAudioSrc(`${String(mp3)}?timestamp=${Date.now()}`))
       .catch(() => {});
   }, []);
 
