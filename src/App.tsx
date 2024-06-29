@@ -262,11 +262,7 @@ export const App = () => {
   }, []);
 
   const onPlay = useCallback((word: Word) => {
-    fetch(
-      `/api/glosbe?word=${encodeURIComponent(
-        word.dutch.replace(/\b(^(de|het)) /, "")
-      )}`
-    )
+    fetch(`/api/glosbe?word=${encodeURIComponent(word.dutch)}`)
       .then((r) => r.json())
       .then(({ mp3 }) => setAudioSrc(mp3))
       .catch(() => {});
