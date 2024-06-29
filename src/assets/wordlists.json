@@ -1,6 +1,7 @@
 [
   {
     "lesson": 0,
+    "topic": "Misc",
     "words": [
       {
         "dutch": "ik moet",
@@ -383,7 +384,8 @@
     ]
   },
   {
-    "lesson": 1,
+    "lesson": 1.2,
+    "topic": "Welkom",
     "words": [
       {
         "dutch": "welkom (in)",
@@ -850,7 +852,8 @@
     ]
   },
   {
-    "lesson": 2,
+    "lesson": 2.2,
+    "topic": "In de kantine",
     "words": [
       {
         "dutch": "zitten (zitten)",
@@ -1311,7 +1314,8 @@
     ]
   },
   {
-    "lesson": 3,
+    "lesson": 3.2,
+    "topic": "In het café",
     "words": [
       {
         "dutch": "viert (vieren)",
@@ -1622,7 +1626,8 @@
     ]
   },
   {
-    "lesson": 4,
+    "lesson": 4.2,
+    "topic": "Op straat",
     "words": [
       {
         "dutch": "de straat",
@@ -1983,6 +1988,546 @@
         "english": "until then",
         "example": "Tot dan!",
         "translation": "Until then!"
+      }
+    ]
+  },
+  {
+    "lesson": 5.2,
+    "topic": "Op de markt",
+    "words": [
+      {
+        "dutch": "boodschappen doen",
+        "english": "go shopping",
+        "example": "Ik moet vandaag boodschappen doen.",
+        "translation": "I need to go shopping today."
+      },
+      {
+        "dutch": "de markt",
+        "english": "market",
+        "example": "We gaan naar de markt.",
+        "translation": "We are going to the market."
+      },
+      {
+        "dutch": "de groenteboer",
+        "english": "greengrocer",
+        "example": "De groenteboer heeft verse groenten.",
+        "translation": "The greengrocer has fresh vegetables."
+      },
+      {
+        "dutch": "er",
+        "english": "there",
+        "example": "Er zijn veel mensen op de markt.",
+        "translation": "There are many people at the market."
+      },
+      {
+        "dutch": "wie is er aan de beurt?",
+        "english": "who's next?",
+        "example": "Wie is er aan de beurt bij de slager?",
+        "translation": "Who's next at the butcher?"
+      },
+      {
+        "dutch": "de beurt",
+        "english": "turn",
+        "example": "Het is mijn beurt om te bestellen.",
+        "translation": "It's my turn to order."
+      },
+      {
+        "dutch": "alsjeblieft",
+        "english": "please",
+        "example": "Mag ik een kilo appels, alsjeblieft?",
+        "translation": "Can I have a kilo of apples, please?"
+      },
+      {
+        "dutch": "kleine (klein)",
+        "english": "small",
+        "example": "Ik wil een kleine bloemkool.",
+        "translation": "I want a small cauliflower."
+      },
+      {
+        "dutch": "de courgette",
+        "english": "courgette",
+        "example": "Een courgette, alstublieft.",
+        "translation": "A courgette, please."
+      },
+      {
+        "dutch": "gele (geel)",
+        "english": "yellow",
+        "example": "Ik heb gele paprika's nodig.",
+        "translation": "I need yellow bell peppers."
+      },
+      {
+        "dutch": "paprika's",
+        "english": "bell peppers, sweet peppers",
+        "example": "Ik koop drie paprika's.",
+        "translation": "I'm buying three bell peppers."
+      },
+      {
+        "dutch": "mooie (mooi)",
+        "english": "nice",
+        "example": "Wat een mooie tomaten!",
+        "translation": "What nice tomatoes!"
+      },
+      {
+        "dutch": "tomaten",
+        "english": "tomatoes",
+        "example": "Tomaten zijn in de aanbieding.",
+        "translation": "Tomatoes are on sale."
+      },
+      {
+        "dutch": "altijd",
+        "english": "always",
+        "example": "Hij koopt altijd verse groenten.",
+        "translation": "He always buys fresh vegetables."
+      },
+      {
+        "dutch": "sorry",
+        "english": "sorry",
+        "example": "Sorry, ik ben te laat.",
+        "translation": "Sorry, I am late."
+      },
+      {
+        "dutch": "(na)tuurlijk",
+        "english": "of course",
+        "example": "Natuurlijk wil ik helpen.",
+        "translation": "Of course, I want to help."
+      },
+      {
+        "dutch": "anders nog iets?",
+        "english": "anything else?",
+        "example": "Heeft u anders nog iets nodig?",
+        "translation": "Do you need anything else?"
+      },
+      {
+        "dutch": "typisch",
+        "english": "typical",
+        "example": "Dat is een typisch gerecht hier.",
+        "translation": "That is a typical dish here."
+      },
+      {
+        "dutch": "het gerecht",
+        "english": "dish",
+        "example": "Dit gerecht is heel bekend.",
+        "translation": "This dish is very well known."
+      },
+      {
+        "dutch": "buitenlanders",
+        "english": "foreigners",
+        "example": "Veel buitenlanders bezoeken deze markt.",
+        "translation": "Many foreigners visit this market."
+      },
+      {
+        "dutch": "de stamppot",
+        "english": "mashed potato and vegetables",
+        "example": "Stamppot is een typisch Nederlands gerecht.",
+        "translation": "Stamppot is a typical Dutch dish."
+      },
+      {
+        "dutch": "de andijvie",
+        "english": "endive",
+        "example": "Andijvie is een groente die vaak in stamppot wordt gebruikt.",
+        "translation": "Endive is a vegetable often used in stamppot."
+      },
+      {
+        "dutch": "spekjes (het spekje)",
+        "english": "bacon",
+        "example": "Ik voeg spekjes toe aan de stamppot.",
+        "translation": "I add bacon to the stamppot."
+      },
+      {
+        "dutch": "vaak",
+        "english": "often",
+        "example": "Wij gaan vaak naar de markt.",
+        "translation": "We often go to the market."
+      },
+      {
+        "dutch": "heerlijk",
+        "english": "delicious",
+        "example": "Deze appels zijn heerlijk.",
+        "translation": "These apples are delicious."
+      },
+      {
+        "dutch": "goedkope (goedkoop)",
+        "english": "cheap",
+        "example": "Ik zoek goedkope groenten.",
+        "translation": "I am looking for cheap vegetables."
+      },
+      {
+        "dutch": "hoeveel",
+        "english": "how much",
+        "example": "Hoeveel kost een kilo tomaten?",
+        "translation": "How much does a kilo of tomatoes cost?"
+      },
+      {
+        "dutch": "heb nodig (nodig hebben)",
+        "english": "need",
+        "example": "Ik heb eieren nodig.",
+        "translation": "I need eggs."
+      },
+      {
+        "dutch": "personen (de persoon)",
+        "english": "people",
+        "example": "Er waren veel personen op het feest.",
+        "translation": "There were many people at the party."
+      },
+      {
+        "dutch": "ongeveer",
+        "english": "about",
+        "example": "We hebben ongeveer een kilo nodig.",
+        "translation": "We need about a kilo."
+      },
+      {
+        "dutch": "halve (half)",
+        "english": "half",
+        "example": "Ik wil een halve kilo appels.",
+        "translation": "I want half a kilo of apples."
+      },
+      {
+        "dutch": "de kilo",
+        "english": "kilo",
+        "example": "Een kilo appels, alstublieft.",
+        "translation": "A kilo of apples, please."
+      },
+      {
+        "dutch": "aardappels (de aardappel)",
+        "english": "potatoes",
+        "example": "Aardappels zijn in de aanbieding.",
+        "translation": "Potatoes are on sale."
+      },
+      {
+        "dutch": "de slager",
+        "english": "butcher",
+        "example": "De slager verkoopt vers vlees.",
+        "translation": "The butcher sells fresh meat."
+      },
+      {
+        "dutch": "was (zijn)",
+        "english": "was",
+        "example": "Hij was gisteren op de markt.",
+        "translation": "He was at the market yesterday."
+      },
+      {
+        "dutch": "de bloemkool",
+        "english": "cauliflower",
+        "example": "Bloemkool is een populaire groente.",
+        "translation": "Cauliflower is a popular vegetable."
+      },
+      {
+        "dutch": "het bakje (de bak)",
+        "english": "punnet",
+        "example": "Een bakje aardbeien, alstublieft.",
+        "translation": "A punnet of strawberries, please."
+      },
+      {
+        "dutch": "champignons (de champignon)",
+        "english": "mushrooms",
+        "example": "Ik koop een bakje champignons.",
+        "translation": "I'm buying a punnet of mushrooms."
+      },
+      {
+        "dutch": "de peterselie",
+        "english": "parsley",
+        "example": "Een bosje peterselie, alstublieft.",
+        "translation": "A bunch of parsley, please."
+      },
+      {
+        "dutch": "het bosje (de bos)",
+        "english": "bunch",
+        "example": "Ik wil een bosje bloemen kopen.",
+        "translation": "I want to buy a bunch of flowers."
+      },
+      {
+        "dutch": "verder nog iets?",
+        "english": "anything else?",
+        "example": "Heeft u verder nog iets nodig?",
+        "translation": "Do you need anything else?"
+      },
+      {
+        "dutch": "boontjes (het boontje)",
+        "english": "beans",
+        "example": "Ik koop verse boontjes.",
+        "translation": "I'm buying fresh beans."
+      },
+      {
+        "dutch": "verse (vers)",
+        "english": "fresh",
+        "example": "Ik koop verse groenten.",
+        "translation": "I'm buying fresh vegetables."
+      },
+      {
+        "dutch": "de knoflook",
+        "english": "garlic",
+        "example": "Een bol knoflook, alstublieft.",
+        "translation": "A bulb of garlic, please."
+      },
+      {
+        "dutch": "komkommers (de komkommer)",
+        "english": "cucumbers",
+        "example": "Ik koop twee komkommers.",
+        "translation": "I'm buying two cucumbers."
+      },
+      {
+        "dutch": "de euro",
+        "english": "euro",
+        "example": "Het kost drie euro.",
+        "translation": "It costs three euros."
+      },
+      {
+        "dutch": "wel",
+        "english": "quite",
+        "example": "Het is wel druk op de markt.",
+        "translation": "It is quite busy at the market."
+      },
+      {
+        "dutch": "genoeg",
+        "english": "enough",
+        "example": "We hebben genoeg appels.",
+        "translation": "We have enough apples."
+      },
+      {
+        "dutch": "waarnaartoe",
+        "english": "where to",
+        "example": "Waarnaartoe gaan we nu?",
+        "translation": "Where are we going now?"
+      },
+      {
+        "dutch": "de cent",
+        "english": "cent",
+        "example": "Het kost vijftig cent.",
+        "translation": "It costs fifty cents."
+      },
+      {
+        "dutch": "erbij",
+        "english": "with it",
+        "example": "Wil je er nog iets bij?",
+        "translation": "Do you want anything with it?"
+      },
+      {
+        "dutch": "geeft niet",
+        "english": "doesn't matter",
+        "example": "Het geeft niet als het regent.",
+        "translation": "It doesn't matter if it rains."
+      },
+      {
+        "dutch": "prettig",
+        "english": "nice",
+        "example": "Het is een prettige dag.",
+        "translation": "It is a nice day."
+      },
+      {
+        "dutch": "het weekend",
+        "english": "weekend",
+        "example": "Wat ga je doen dit weekend?",
+        "translation": "What are you doing this weekend?"
+      }
+    ]
+  },
+  {
+    "lesson": 5.3,
+    "topic": "Groente",
+    "words": [
+      {
+        "dutch": "de courgette",
+        "english": "courgette",
+        "example": "Ik maak een salade met courgette.",
+        "translation": "I am making a salad with courgette."
+      },
+      {
+        "dutch": "de aubergine",
+        "english": "eggplant",
+        "example": "Ze bakt aubergine in de oven.",
+        "translation": "She bakes eggplant in the oven."
+      },
+      {
+        "dutch": "de paprika",
+        "english": "bell pepper, sweet pepper",
+        "example": "Hij snijdt de paprika in stukjes.",
+        "translation": "He is cutting the bell pepper into pieces."
+      },
+      {
+        "dutch": "de tomaat",
+        "english": "tomato",
+        "example": "De tomaat is rijp en rood.",
+        "translation": "The tomato is ripe and red."
+      },
+      {
+        "dutch": "de andijvie",
+        "english": "endive",
+        "example": "We eten vanavond andijviestamppot.",
+        "translation": "We are eating endive mash tonight."
+      },
+      {
+        "dutch": "de aardappel",
+        "english": "potato",
+        "example": "Ik schil de aardappel voor de soep.",
+        "translation": "I peel the potato for the soup."
+      },
+      {
+        "dutch": "de bloemkool",
+        "english": "cauliflower",
+        "example": "Hij kookt de bloemkool in water.",
+        "translation": "He cooks the cauliflower in water."
+      },
+      {
+        "dutch": "de champignon",
+        "english": "mushroom",
+        "example": "Champignons smaken lekker in saus.",
+        "translation": "Mushrooms taste good in sauce."
+      },
+      {
+        "dutch": "de peterselie",
+        "english": "parsley",
+        "example": "Peterselie is een goede garnering.",
+        "translation": "Parsley is a good garnish."
+      },
+      {
+        "dutch": "het boontje",
+        "english": "bean",
+        "example": "Ik kook boontjes voor het diner.",
+        "translation": "I am cooking beans for dinner."
+      },
+      {
+        "dutch": "de sperzieboon",
+        "english": "green bean",
+        "example": "Sperziebonen zijn gezond en lekker.",
+        "translation": "Green beans are healthy and tasty."
+      },
+      {
+        "dutch": "de knoflook",
+        "english": "garlic",
+        "example": "Knoflook geeft veel smaak aan gerechten.",
+        "translation": "Garlic adds a lot of flavor to dishes."
+      },
+      {
+        "dutch": "de komkommer",
+        "english": "cucumber",
+        "example": "Komkommer is verfrissend in de zomer.",
+        "translation": "Cucumber is refreshing in the summer."
+      },
+      {
+        "dutch": "de sla",
+        "english": "lettuce",
+        "example": "Sla is een belangrijk ingrediënt voor salades.",
+        "translation": "Lettuce is an important ingredient for salads."
+      },
+      {
+        "dutch": "de broccoli",
+        "english": "broccoli",
+        "example": "Broccoli is rijk aan vitamines.",
+        "translation": "Broccoli is rich in vitamins."
+      },
+      {
+        "dutch": "de kool",
+        "english": "cabbage",
+        "example": "Kool kan rauw of gekookt gegeten worden.",
+        "translation": "Cabbage can be eaten raw or cooked."
+      },
+      {
+        "dutch": "de witte kool",
+        "english": "white cabbage",
+        "example": "Witte kool wordt vaak gebruikt in zuurkool.",
+        "translation": "White cabbage is often used in sauerkraut."
+      },
+      {
+        "dutch": "de rode kool",
+        "english": "red cabbage",
+        "example": "Rode kool is lekker met appel.",
+        "translation": "Red cabbage is tasty with apple."
+      },
+      {
+        "dutch": "de boerenkool",
+        "english": "curly kale",
+        "example": "Boerenkoolstamppot is een wintergerecht.",
+        "translation": "Curly kale mash is a winter dish."
+      },
+      {
+        "dutch": "de zuurkool",
+        "english": "sauerkraut",
+        "example": "Zuurkool wordt vaak gegeten met worst.",
+        "translation": "Sauerkraut is often eaten with sausage."
+      },
+      {
+        "dutch": "de ui",
+        "english": "onion",
+        "example": "Een ui geeft extra smaak aan het eten.",
+        "translation": "An onion adds extra flavor to the food."
+      },
+      {
+        "dutch": "de wortel",
+        "english": "carrot",
+        "example": "Wortels zijn goed voor de ogen.",
+        "translation": "Carrots are good for the eyes."
+      }
+    ]
+  },
+  {
+    "lesson": 5.3,
+    "topic": "Fruit",
+    "words": [
+      {
+        "dutch": "de aardbei",
+        "english": "strawberry",
+        "example": "Ik eet graag aardbeien met slagroom.",
+        "translation": "I like to eat strawberries with cream."
+      },
+      {
+        "dutch": "de druif",
+        "english": "grape",
+        "example": "Druiven zijn heerlijk als tussendoortje.",
+        "translation": "Grapes are delicious as a snack."
+      },
+      {
+        "dutch": "de perzik",
+        "english": "peach",
+        "example": "Een rijpe perzik is sappig en zoet.",
+        "translation": "A ripe peach is juicy and sweet."
+      },
+      {
+        "dutch": "de pruim",
+        "english": "plum",
+        "example": "In de zomer zijn pruimen in het seizoen.",
+        "translation": "In the summer, plums are in season."
+      },
+      {
+        "dutch": "de kers",
+        "english": "cherry",
+        "example": "Kersen smaken heerlijk in taart.",
+        "translation": "Cherries taste great in pie."
+      },
+      {
+        "dutch": "de appel",
+        "english": "apple",
+        "example": "Ik eet elke dag een appel.",
+        "translation": "I eat an apple every day."
+      },
+      {
+        "dutch": "de peer",
+        "english": "pear",
+        "example": "Peren zijn rijp in de herfst.",
+        "translation": "Pears are ripe in the fall."
+      },
+      {
+        "dutch": "de sinaasappel",
+        "english": "orange",
+        "example": "Een glas vers sinaasappelsap is gezond.",
+        "translation": "A glass of fresh orange juice is healthy."
+      },
+      {
+        "dutch": "de mandarijn",
+        "english": "mandarin",
+        "example": "Mandarijnen zijn makkelijk te pellen.",
+        "translation": "Mandarins are easy to peel."
+      },
+      {
+        "dutch": "de kiwi",
+        "english": "kiwifruit",
+        "example": "Kiwifruit is rijk aan vitamine C.",
+        "translation": "Kiwifruit is rich in vitamin C."
+      },
+      {
+        "dutch": "de banaan",
+        "english": "banana",
+        "example": "Bananen zijn een goede bron van kalium.",
+        "translation": "Bananas are a good source of potassium."
       }
     ]
   }

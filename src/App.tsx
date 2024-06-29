@@ -31,60 +31,60 @@ interface Word {
 }
 
 const LessonSettings = ({
-  lesson,
+  wordlist,
+  lessonId,
   mode,
-  setLesson,
+  setLessonId,
   setMode,
 }: {
-  lesson: number;
+  wordlist: { lesson: number; topic: string; id: string }[];
+  lessonId: string;
   mode: Mode;
-  setLesson: (lesson: number) => void;
+  setLessonId: (lessonId: string) => void;
   setMode: (mode: Mode) => void;
 }) => {
   return (
-    <FormControl fullWidth>
-      <Grid container spacing={2}>
-        <Grid xs={6}>
-          <Box sx={{ position: "relative" }}>
-            <InputLabel id="lesson-select">Lesson</InputLabel>
-            <Select
-              sx={{ display: "block" }}
-              labelId="lesson-select"
-              id="mode-select"
-              value={lesson}
-              label="Lesson"
-              onChange={(event) => {
-                setLesson(Number(event.target.value));
-              }}
-            >
-              {wordlist.map((entry) => (
-                <MenuItem key={entry.lesson} value={entry.lesson}>
-                  Lesson {entry.lesson}
-                </MenuItem>
-              ))}
-            </Select>
-          </Box>
-        </Grid>
-        <Grid xs={6}>
-          <Box sx={{ position: "relative" }}>
-            <InputLabel id="mode-select">Mode</InputLabel>
-            <Select
-              sx={{ display: "block" }}
-              labelId="mode-select"
-              id="mode-select"
-              value={mode}
-              label="Mode"
-              onChange={(event) => {
-                setMode(Number(event.target.value));
-              }}
-            >
-              <MenuItem value={Mode.Learn}>{Mode[Mode.Learn]}</MenuItem>
-              <MenuItem value={Mode.Check}>{Mode[Mode.Check]}</MenuItem>
-            </Select>
-          </Box>
-        </Grid>
+    <Grid container spacing={2}>
+      <Grid xs={6}>
+        <FormControl fullWidth>
+          <InputLabel id="lesson-select">Lesson</InputLabel>
+          <Select
+            sx={{ display: "block", overflowX: "hidden" }}
+            labelId="lesson-select"
+            id="mode-select"
+            value={lessonId}
+            label="Lesson"
+            onChange={(event) => {
+              setLessonId(event.target.value);
+            }}
+          >
+            {wordlist.map((entry) => (
+              <MenuItem key={entry.id} value={entry.id}>
+                {entry.lesson}. {entry.topic}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
       </Grid>
-    </FormControl>
+      <Grid xs={6}>
+        <FormControl fullWidth>
+          <InputLabel id="mode-select">Mode</InputLabel>
+          <Select
+            sx={{ display: "block", overflowX: "hidden" }}
+            labelId="mode-select"
+            id="mode-select"
+            value={mode}
+            label="Mode"
+            onChange={(event) => {
+              setMode(Number(event.target.value));
+            }}
+          >
+            <MenuItem value={Mode.Learn}>{Mode[Mode.Learn]}</MenuItem>
+            <MenuItem value={Mode.Check}>{Mode[Mode.Check]}</MenuItem>
+          </Select>
+        </FormControl>
+      </Grid>
+    </Grid>
   );
 };
 
@@ -152,7 +152,6 @@ const Word = ({
           <Box className="translation">
             <Typography
               variant="h5"
-              component="div"
               sx={{ display: "flex", alignItems: "center" }}
             >
               <Box>{word.dutch}</Box>
@@ -196,12 +195,21 @@ const Word = ({
 export const App = () => {
   const [audioSrc, setAudioSrc] = useState<string | null>(null);
 
-  const [initialLesson] = useState(() => {
-    const storedNumber = Number(localStorage.lesson);
-    const allLessons = wordlist.map((entry) => entry.lesson);
-    const latestLesson = Math.max(...allLessons);
-    return storedNumber >= 0 && allLessons.includes(storedNumber)
-      ? storedNumber
+  const wordsTransformed = useMemo(
+    () =>
+      wordlist.map((entry) => ({
+        ...entry,
+        id: `${entry.lesson}#${entry.topic}`,
+      })),
+    []
+  );
+
+  const [initialLessonId] = useState(() => {
+    const storedLesson = localStorage.lessonId;
+    const allLessons = wordsTransformed.map((entry) => entry.id);
+    const latestLesson = wordsTransformed.slice(-1)[0].id;
+    return storedLesson != null && allLessons.includes(storedLesson)
+      ? storedLesson
       : latestLesson;
   });
   const [mode, _setMode] = useState(() => {
@@ -211,33 +219,36 @@ export const App = () => {
   const [learntWords, _setLearntWords] = useState(() =>
     JSON.parse(localStorage.learntWords || "{}")
   );
-  const [lesson, _setLesson] = useState(initialLesson);
+  const [lessonId, _setLessonId] = useState(initialLessonId);
 
   const isWordLearnt = useCallback(
-    (word: Word) => learntWords[String(lesson)]?.includes(word.dutch),
-    [lesson, learntWords]
+    (word: Word) => learntWords[lessonId]?.includes(word.dutch),
+    [lessonId, learntWords]
   );
 
   const words = useMemo(() => {
-    const { words } = wordlist.find((entry) => entry.lesson === lesson)!;
+    const { words } = wordsTransformed.find((entry) => entry.id === lessonId)!;
     return mode === Mode.Check
       ? words.filter((word) => !isWordLearnt(word))
       : words;
-  }, [mode, lesson, isWordLearnt]);
+  }, [mode, lessonId, isWordLearnt]);
 
   const setWordLearnt = useCallback(
     (word: string, isLearnt: boolean) => {
       let lessonWords = Array.from(
-        new Set([...(learntWords[String(lesson)] || []), word])
+        new Set([...(learntWords[String(lessonId)] || []), word])
       );
       if (!isLearnt) {
         lessonWords = lessonWords.filter((w) => w !== word);
       }
-      const newLearntWords = { ...learntWords, [String(lesson)]: lessonWords };
+      const newLearntWords = {
+        ...learntWords,
+        [String(lessonId)]: lessonWords,
+      };
       localStorage.learntWords = JSON.stringify(newLearntWords);
       _setLearntWords(newLearntWords);
     },
-    [lesson, learntWords]
+    [lessonId, learntWords]
   );
 
   const setMode = useCallback((mode: Mode) => {
@@ -245,13 +256,17 @@ export const App = () => {
     _setMode(mode);
   }, []);
 
-  const setLesson = useCallback((lesson: number) => {
-    localStorage.lesson = lesson;
-    _setLesson(lesson);
+  const setLessonId = useCallback((lessonId: string) => {
+    localStorage.lessonId = lessonId;
+    _setLessonId(lessonId);
   }, []);
 
   const onPlay = useCallback((word: Word) => {
-    fetch(`/api/glosbe?word=${encodeURIComponent(word.dutch)}`)
+    fetch(
+      `/api/glosbe?word=${encodeURIComponent(
+        word.dutch.replace(/\b(^(de|het)) /, "")
+      )}`
+    )
       .then((r) => r.json())
       .then(({ mp3 }) => setAudioSrc(mp3))
       .catch(() => {});
@@ -263,17 +278,17 @@ export const App = () => {
         <Grid container spacing={2}>
           <Grid xs={12}>
             <LessonSettings
-              lesson={lesson}
+              wordlist={wordsTransformed}
+              lessonId={lessonId}
               mode={mode}
-              setLesson={setLesson}
+              setLessonId={setLessonId}
               setMode={setMode}
             />
             <Box sx={{ marginTop: 2 }}>
               <Grid container spacing={2}>
                 {words.map((word) => (
-                  <Grid xs={12}>
+                  <Grid xs={12} key={`${word.dutch}:${word.english}`}>
                     <Word
-                      key={`${word.dutch}:${word.english}`}
                       word={word}
                       mode={mode}
                       checked={isWordLearnt(word)}
