@@ -30,6 +30,23 @@ interface Word {
   translation: string;
 }
 
+const fetchGlosbeAudio = (() => {
+  const cache = new Map();
+  return (word: string) => {
+    const mp3 = cache.get(word);
+    if (mp3) {
+      return Promise.resolve(mp3);
+    }
+    return fetch(`/api/glosbe?word=${encodeURIComponent(word)}`)
+      .then((r) => r.json())
+      .then(({ mp3 }) => {
+        cache.set(word, mp3);
+        return mp3;
+      })
+      .catch(() => {});
+  };
+})();
+
 const LessonSettings = ({
   wordlist,
   lessonId,
@@ -261,12 +278,13 @@ export const App = () => {
     _setLessonId(lessonId);
   }, []);
 
-  const onPlay = useCallback((word: Word) => {
-    fetch(`/api/glosbe?word=${encodeURIComponent(word.dutch)}`)
-      .then((r) => r.json())
-      .then(({ mp3 }) => setAudioSrc(`${String(mp3)}?timestamp=${Date.now()}`))
-      .catch(() => {});
-  }, []);
+  const onPlay = useCallback(
+    (word: Word) =>
+      fetchGlosbeAudio(word.dutch).then(
+        (mp3) => mp3 && setAudioSrc(`${mp3}?ts=${Date.now()}`)
+      ),
+    []
+  );
 
   return (
     <Container maxWidth="md">

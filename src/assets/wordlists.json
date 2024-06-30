@@ -380,6 +380,48 @@
         "english": "cinema",
         "example": "We gaan vanavond naar de bioscoop.",
         "translation": "We are going to the cinema tonight."
+      },
+      {
+        "dutch": "geweest",
+        "english": "been",
+        "example": "Hij is al vaak in Frankrijk geweest.",
+        "translation": "He has been to France many times."
+      },
+      {
+        "dutch": "worden",
+        "english": "to become",
+        "example": "Hij wil dokter worden als hij groot is.",
+        "translation": "He wants to become a doctor when he grows up."
+      },
+      {
+        "dutch": "gezond",
+        "english": "healthy",
+        "example": "Een appel per dag houdt de dokter weg.",
+        "translation": "An apple a day keeps the doctor away."
+      },
+      {
+        "dutch": "uitstellen",
+        "english": "to postpone",
+        "example": "Ze moesten de vergadering uitstellen vanwege ziekte.",
+        "translation": "They had to postpone the meeting due to illness."
+      },
+      {
+        "dutch": "lelijk",
+        "english": "ugly",
+        "example": "Het gebouw wordt vaak als lelijk beschouwd.",
+        "translation": "The building is often considered ugly."
+      },
+      {
+        "dutch": "diensten",
+        "english": "services",
+        "example": "De diensten van het bedrijf zijn uitstekend.",
+        "translation": "The company's services are excellent."
+      },
+      {
+        "dutch": "raadplegen",
+        "english": "to consult",
+        "example": "Je moet een arts raadplegen als je ziek bent.",
+        "translation": "You should consult a doctor if you are sick."
       }
     ]
   },
