@@ -4,6 +4,24 @@
     "topic": "Misc",
     "words": [
       {
+        "dutch": "beschrijven",
+        "english": "describe",
+        "example": "Kun je de situatie beschrijven?",
+        "translation": "Can you describe the situation?"
+      },
+      {
+        "dutch": "blijven",
+        "english": "stay",
+        "example": "Hij wil thuis blijven.",
+        "translation": "He wants to stay home."
+      },
+      {
+        "dutch": "gebruik",
+        "english": "use",
+        "example": "Het gebruik van deze machine is eenvoudig.",
+        "translation": "The use of this machine is simple."
+      },
+      {
         "dutch": "ik moet",
         "english": "I have to",
         "example": "Ik moet naar de winkel gaan.",
