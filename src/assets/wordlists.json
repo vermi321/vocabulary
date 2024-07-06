@@ -194,6 +194,48 @@
         "english": "to consult",
         "example": "Je moet een arts raadplegen als je ziek bent.",
         "translation": "You should consult a doctor if you are sick."
+      },
+      {
+        "dutch": "voelen",
+        "english": "feel",
+        "example": "Ik voel me vandaag goed.",
+        "translation": "I feel good today."
+      },
+      {
+        "dutch": "wedstrijden",
+        "english": "matches",
+        "example": "De wedstrijden beginnen om 3 uur.",
+        "translation": "The matches start at 3 o'clock."
+      },
+      {
+        "dutch": "het hangt er van af",
+        "english": "it depends",
+        "example": "Het hangt er van af hoe laat we vertrekken.",
+        "translation": "It depends on what time we leave."
+      },
+      {
+        "dutch": "het hangt van ... af",
+        "english": "it depends on ...",
+        "example": "Het hangt van het weer af.",
+        "translation": "It depends on the weather."
+      },
+      {
+        "dutch": "gezellig",
+        "english": "cozy",
+        "example": "Het was een gezellige avond.",
+        "translation": "It was a cozy evening."
+      },
+      {
+        "dutch": "hoofdpijn",
+        "english": "headache",
+        "example": "Ik heb hoofdpijn.",
+        "translation": "I have a headache."
+      },
+      {
+        "dutch": "vervelend",
+        "english": "annoying",
+        "example": "Het was een vervelende situatie.",
+        "translation": "It was an annoying situation."
       }
     ]
   },
