@@ -2386,5 +2386,425 @@
         "translation": "Bananas are a good source of potassium."
       }
     ]
+  },
+  {
+    "lesson": 6.2,
+    "topic": "In een restaurant",
+    "words": [
+      {
+        "dutch": "de vriendin",
+        "english": "(girl)friend",
+        "example": "Mijn vriendin en ik gaan naar het park.",
+        "translation": "My girlfriend and I are going to the park."
+      },
+      {
+        "dutch": "het restaurant",
+        "english": "restaurant",
+        "example": "We eten vanavond in een restaurant.",
+        "translation": "We are eating at a restaurant tonight."
+      },
+      {
+        "dutch": "de serveerster",
+        "english": "waitress",
+        "example": "De serveerster neemt onze bestelling op.",
+        "translation": "The waitress is taking our order."
+      },
+      {
+        "dutch": "de tafel",
+        "english": "table",
+        "example": "De tafel is gedekt voor het diner.",
+        "translation": "The table is set for dinner."
+      },
+      {
+        "dutch": "ons",
+        "english": "us",
+        "example": "Ze brengt het eten naar ons.",
+        "translation": "She brings the food to us."
+      },
+      {
+        "dutch": "bij",
+        "english": "at",
+        "example": "We zitten bij het raam.",
+        "translation": "We are sitting at the window."
+      },
+      {
+        "dutch": "het raam",
+        "english": "window",
+        "example": "Het raam biedt een mooi uitzicht.",
+        "translation": "The window offers a beautiful view."
+      },
+      {
+        "dutch": "gaan zitten",
+        "english": "sit down",
+        "example": "Laten we gaan zitten.",
+        "translation": "Let's sit down."
+      },
+      {
+        "dutch": "de menukaart",
+        "english": "menu",
+        "example": "Mag ik de menukaart alstublieft?",
+        "translation": "May I have the menu please?"
+      },
+      {
+        "dutch": "alvast",
+        "english": "in the meantime",
+        "example": "We kunnen alvast een drankje bestellen.",
+        "translation": "We can order a drink in the meantime."
+      },
+      {
+        "dutch": "te",
+        "english": "to",
+        "example": "We gaan te voet.",
+        "translation": "We are going on foot."
+      },
+      {
+        "dutch": "het mineraalwater",
+        "english": "mineral water",
+        "example": "Ik wil graag mineraalwater.",
+        "translation": "I would like mineral water."
+      },
+      {
+        "dutch": "ik heb dorst",
+        "english": "I'm thirsty",
+        "example": "Ik heb dorst na het sporten.",
+        "translation": "I'm thirsty after exercising."
+      },
+      {
+        "dutch": "de dorst",
+        "english": "thirst",
+        "example": "De dorst is ondragelijk in deze hitte.",
+        "translation": "The thirst is unbearable in this heat."
+      },
+      {
+        "dutch": "mij",
+        "english": "me",
+        "example": "Geef het boek aan mij.",
+        "translation": "Give the book to me."
+      },
+      {
+        "dutch": "alleen",
+        "english": "only / just",
+        "example": "Ik heb alleen wat water nodig.",
+        "translation": "I just need some water."
+      },
+      {
+        "dutch": "het hoofdgerecht",
+        "english": "main course",
+        "example": "Het hoofdgerecht was heerlijk.",
+        "translation": "The main course was delicious."
+      },
+      {
+        "dutch": "ik heb honger",
+        "english": "I'm hungry",
+        "example": "Ik heb honger na een lange dag werken.",
+        "translation": "I'm hungry after a long day at work."
+      },
+      {
+        "dutch": "de honger",
+        "english": "hunger",
+        "example": "De honger is groot.",
+        "translation": "The hunger is great."
+      },
+      {
+        "dutch": "het voorgerecht",
+        "english": "starter",
+        "example": "We beginnen met een voorgerecht.",
+        "translation": "We start with a starter."
+      },
+      {
+        "dutch": "misschien",
+        "english": "perhaps",
+        "example": "Misschien gaan we morgen naar het strand.",
+        "translation": "Perhaps we'll go to the beach tomorrow."
+      },
+      {
+        "dutch": "het nagerecht",
+        "english": "dessert",
+        "example": "Voor het nagerecht neem ik ijs.",
+        "translation": "For dessert, I'll have ice cream."
+      },
+      {
+        "dutch": "de mosterdsoep",
+        "english": "mustard soup",
+        "example": "De mosterdsoep is erg populair hier.",
+        "translation": "The mustard soup is very popular here."
+      },
+      {
+        "dutch": "de mosterd",
+        "english": "mustard",
+        "example": "Mag ik de mosterd alstublieft?",
+        "translation": "May I have the mustard, please?"
+      },
+      {
+        "dutch": "de soep",
+        "english": "soup",
+        "example": "De soep is heet.",
+        "translation": "The soup is hot."
+      },
+      {
+        "dutch": "erg",
+        "english": "very",
+        "example": "Het is erg warm vandaag.",
+        "translation": "It is very warm today."
+      },
+      {
+        "dutch": "als",
+        "english": "as",
+        "example": "Ik werk als leraar.",
+        "translation": "I work as a teacher."
+      },
+      {
+        "dutch": "de biefstuk",
+        "english": "steak",
+        "example": "Ik wil graag een medium-rare biefstuk.",
+        "translation": "I would like a medium-rare steak."
+      },
+      {
+        "dutch": "frietjes (het frietje)",
+        "english": "chips",
+        "example": "Ik bestel frietjes bij mijn maaltijd.",
+        "translation": "I order chips with my meal."
+      },
+      {
+        "dutch": "eh",
+        "english": "um",
+        "example": "Eh, ik weet het niet zeker.",
+        "translation": "Um, I'm not sure."
+      },
+      {
+        "dutch": "de salade",
+        "english": "salad",
+        "example": "De salade is vers en knapperig.",
+        "translation": "The salad is fresh and crispy."
+      },
+      {
+        "dutch": "de kip",
+        "english": "chicken",
+        "example": "De kip is goed gekruid.",
+        "translation": "The chicken is well-seasoned."
+      },
+      {
+        "dutch": "de rijst",
+        "english": "rice",
+        "example": "De rijst is perfect gekookt.",
+        "translation": "The rice is perfectly cooked."
+      },
+      {
+        "dutch": "o nee",
+        "english": "oh no",
+        "example": "O nee, ik ben mijn sleutels vergeten.",
+        "translation": "Oh no, I forgot my keys."
+      },
+      {
+        "dutch": "geen",
+        "english": "no",
+        "example": "Ik heb geen tijd.",
+        "translation": "I have no time."
+      },
+      {
+        "dutch": "het vlees",
+        "english": "meat",
+        "example": "Het vlees is mals en sappig.",
+        "translation": "The meat is tender and juicy."
+      },
+      {
+        "dutch": "toch",
+        "english": "after all",
+        "example": "Het is toch beter om te wachten.",
+        "translation": "It's better to wait after all."
+      },
+      {
+        "dutch": "vegetarische (vegetarisch)",
+        "english": "vegetarian",
+        "example": "Ze eten alleen vegetarisch.",
+        "translation": "They eat only vegetarian."
+      },
+      {
+        "dutch": "de dagschotel",
+        "english": "today's special",
+        "example": "Wat is de dagschotel vandaag?",
+        "translation": "What is today's special?"
+      },
+      {
+        "dutch": "kiezen",
+        "english": "choose",
+        "example": "Je moet kiezen wat je wilt eten.",
+        "translation": "You have to choose what you want to eat."
+      },
+      {
+        "dutch": "eet smakelijk",
+        "english": "bon appetit",
+        "example": "Eet smakelijk iedereen!",
+        "translation": "Bon appetit everyone!"
+      },
+      {
+        "dutch": "het mes",
+        "english": "knife",
+        "example": "Het mes is scherp.",
+        "translation": "The knife is sharp."
+      },
+      {
+        "dutch": "de vork",
+        "english": "fork",
+        "example": "Mag ik een vork alstublieft?",
+        "translation": "May I have a fork please?"
+      },
+      {
+        "dutch": "momentje (het moment)",
+        "english": "one moment",
+        "example": "Momentje, ik ben zo terug.",
+        "translation": "One moment, I'll be right back."
+      },
+      {
+        "dutch": "de lepel",
+        "english": "spoon",
+        "example": "Gebruik een lepel voor de soep.",
+        "translation": "Use a spoon for the soup."
+      },
+      {
+        "dutch": "halen",
+        "english": "fetch",
+        "example": "Ik ga wat water halen.",
+        "translation": "I'll fetch some water."
+      },
+      {
+        "dutch": "beetje",
+        "english": "a little",
+        "example": "Doe een beetje suiker in mijn koffie.",
+        "translation": "Put a little sugar in my coffee."
+      },
+      {
+        "dutch": "moeilijk",
+        "english": "difficult",
+        "example": "Deze taak is moeilijk.",
+        "translation": "This task is difficult."
+      },
+      {
+        "dutch": "het gaat wel",
+        "english": "it's okay",
+        "example": "Hoe gaat het met je? Het gaat wel.",
+        "translation": "How are you? It's okay."
+      },
+      {
+        "dutch": "de soort",
+        "english": "kind",
+        "example": "Wat voor soort fruit is dit?",
+        "translation": "What kind of fruit is this?"
+      },
+      {
+        "dutch": "de paella",
+        "english": "paella",
+        "example": "De paella is een specialiteit van het huis.",
+        "translation": "The paella is a house specialty."
+      },
+      {
+        "dutch": "houd (houden) van",
+        "english": "like",
+        "example": "Ik houd van chocolade.",
+        "translation": "I like chocolate."
+      },
+      {
+        "dutch": "de mosselen",
+        "english": "mussels",
+        "example": "De mosselen zijn vers gevangen.",
+        "translation": "The mussels are freshly caught."
+      },
+      {
+        "dutch": "proef (proeven)",
+        "english": "try",
+        "example": "Proef deze wijn eens.",
+        "translation": "Try this wine."
+      },
+      {
+        "dutch": "wat",
+        "english": "a little, a bit",
+        "example": "Ik heb wat tijd over.",
+        "translation": "I have a little time left."
+      },
+      {
+        "dutch": "een beetje",
+        "english": "a bit",
+        "example": "Doe een beetje zout op de friet.",
+        "translation": "Put a bit of salt on the fries."
+      },
+      {
+        "dutch": "vet",
+        "english": "greasy / rich",
+        "example": "Deze saus is nogal vet.",
+        "translation": "This sauce is quite rich."
+      },
+      {
+        "dutch": "het toetje",
+        "english": "dessert",
+        "example": "Wat wil je als toetje?",
+        "translation": "What would you like for dessert?"
+      },
+      {
+        "dutch": "het ijs",
+        "english": "icecream",
+        "example": "Ik wil graag een bolletje ijs.",
+        "translation": "I would like a scoop of ice cream."
+      },
+      {
+        "dutch": "vruchten (de vrucht)",
+        "english": "fruit",
+        "example": "Vers gesneden vruchten zijn heerlijk.",
+        "translation": "Freshly cut fruit is delicious."
+      },
+      {
+        "dutch": "de chocola",
+        "english": "chocolate",
+        "example": "Ik hou van pure chocola.",
+        "translation": "I love dark chocolate."
+      },
+      {
+        "dutch": "de slagroom",
+        "english": "whipped cream",
+        "example": "Doe wat slagroom op de taart.",
+        "translation": "Put some whipped cream on the cake."
+      },
+      {
+        "dutch": "zonder",
+        "english": "without",
+        "example": "Ik drink mijn koffie zonder suiker.",
+        "translation": "I drink my coffee without sugar."
+      },
+      {
+        "dutch": "alleen",
+        "english": "only",
+        "example": "Ik heb alleen een beetje tijd.",
+        "translation": "I only have a little time."
+      },
+      {
+        "dutch": "de cappuccino",
+        "english": "cappuccino",
+        "example": "Een cappuccino, alstublieft.",
+        "translation": "A cappuccino, please."
+      },
+      {
+        "dutch": "laat de rest maar zitten",
+        "english": "that's fine / keep the change",
+        "example": "Hier is vijftig euro, laat de rest maar zitten.",
+        "translation": "Here's fifty euros, keep the change."
+      },
+      {
+        "dutch": "laten",
+        "english": "leave",
+        "example": "Laat het daar.",
+        "translation": "Leave it there."
+      },
+      {
+        "dutch": "dank u",
+        "english": "thank you",
+        "example": "Dank u voor uw hulp.",
+        "translation": "Thank you for your help."
+      },
+      {
+        "dutch": "de avond",
+        "english": "evening",
+        "example": "Goede avond!",
+        "translation": "Good evening!"
+      }
+    ]
   }
 ]
