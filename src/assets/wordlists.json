@@ -236,6 +236,72 @@
         "english": "annoying",
         "example": "Het was een vervelende situatie.",
         "translation": "It was an annoying situation."
+      },
+      {
+        "dutch": "rust",
+        "english": "rest",
+        "example": "Neem wat rust na het werk.",
+        "translation": "Take some rest after work."
+      },
+      {
+        "dutch": "ontwerpen",
+        "english": "design",
+        "example": "Hij houdt van huizen ontwerpen.",
+        "translation": "He loves to design houses."
+      },
+      {
+        "dutch": "dingen",
+        "english": "things",
+        "example": "Er zijn veel dingen te doen vandaag.",
+        "translation": "There are many things to do today."
+      },
+      {
+        "dutch": "toevoegen",
+        "english": "add",
+        "example": "Wil je wat suiker aan je koffie toevoegen?",
+        "translation": "Do you want to add some sugar to your coffee?"
+      },
+      {
+        "dutch": "doe die maar",
+        "english": "I'll take that one",
+        "example": "Doe die maar, alsjeblieft.",
+        "translation": "I'll take that one, please."
+      },
+      {
+        "dutch": "gaat het zo mee?",
+        "english": "is it okay like this?",
+        "example": "Gaat het zo mee of moet ik iets veranderen?",
+        "translation": "Is it okay like this or should I change something?"
+      },
+      {
+        "dutch": "stil",
+        "english": "quiet",
+        "example": "Het is erg stil in de bibliotheek.",
+        "translation": "It is very quiet in the library."
+      },
+      {
+        "dutch": "schil",
+        "english": "peel",
+        "example": "Schil de aardappelen voor het koken.",
+        "translation": "Peel the potatoes before cooking."
+      },
+      {
+        "dutch": "gaar",
+        "english": "cooked",
+        "example": "De kip is gaar en klaar om te eten.",
+        "translation": "The chicken is cooked and ready to eat."
+      },
+      {
+        "dutch": "hap",
+        "english": "bite",
+        "example": "Neem een hap van je broodje.",
+        "translation": "Take a bite of your sandwich."
+      },
+      {
+        "dutch": "intussen",
+        "english": "meanwhile",
+        "example": "Intussen kun je de saus bereiden.",
+        "translation": "Meanwhile, you can prepare the sauce."
       }
     ]
   },
