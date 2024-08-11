@@ -302,6 +302,72 @@
         "english": "meanwhile",
         "example": "Intussen kun je de saus bereiden.",
         "translation": "Meanwhile, you can prepare the sauce."
+      },
+      {
+        "dutch": "al",
+        "english": "already",
+        "example": "Ik heb het al gedaan.",
+        "translation": "I have already done it."
+      },
+      {
+        "dutch": "vlakbij",
+        "english": "nearby",
+        "example": "De winkel is vlakbij mijn huis.",
+        "translation": "The store is nearby my house."
+      },
+      {
+        "dutch": "oppassen",
+        "english": "watch out",
+        "example": "Je moet oppassen voor auto's.",
+        "translation": "You need to watch out for cars."
+      },
+      {
+        "dutch": "halfnaakte",
+        "english": "half-naked",
+        "example": "De man liep halfnaakte door het park.",
+        "translation": "The man walked half-naked through the park."
+      },
+      {
+        "dutch": "bijeenkomst",
+        "english": "meeting",
+        "example": "De bijeenkomst begint om drie uur.",
+        "translation": "The meeting starts at three o'clock."
+      },
+      {
+        "dutch": "ik herinner me het niet",
+        "english": "I don't remember",
+        "example": "Ik herinner me het niet meer.",
+        "translation": "I don't remember it anymore."
+      },
+      {
+        "dutch": "een fooi",
+        "english": "a tip",
+        "example": "Hij gaf de serveerster een fooi.",
+        "translation": "He gave the waitress a tip."
+      },
+      {
+        "dutch": "niet zo ... maar wel",
+        "english": "not so ... but",
+        "example": "Het is niet zo koud, maar wel winderig.",
+        "translation": "It's not so cold, but it is windy."
+      },
+      {
+        "dutch": "te stillen",
+        "english": "to satisfy (e.g., hunger)",
+        "example": "Hij at een appel om zijn honger te stillen.",
+        "translation": "He ate an apple to satisfy his hunger."
+      },
+      {
+        "dutch": "gezond",
+        "english": "healthy",
+        "example": "Groenten eten is gezond.",
+        "translation": "Eating vegetables is healthy."
+      },
+      {
+        "dutch": "ongezond",
+        "english": "unhealthy",
+        "example": "Roken is ongezond.",
+        "translation": "Smoking is unhealthy."
       }
     ]
   },
