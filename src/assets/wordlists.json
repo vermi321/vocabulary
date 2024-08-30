@@ -2938,5 +2938,551 @@
         "translation": "Good evening!"
       }
     ]
+  },
+  {
+    "lesson": 7.2,
+    "topic": "In een kledingzaak",
+    "words": [
+      {
+        "dutch": "de kledingzaak",
+        "english": "clothes shop",
+        "example": "Ik ga naar de kledingzaak om een nieuwe jas te kopen.",
+        "translation": "I am going to the clothes shop to buy a new coat."
+      },
+      {
+        "dutch": "de kleding",
+        "english": "clothes",
+        "example": "De kleding in die winkel is erg trendy.",
+        "translation": "The clothes in that store are very trendy."
+      },
+      {
+        "dutch": "de zaak",
+        "english": "shop / store",
+        "example": "Deze zaak verkoopt allerlei elektronica.",
+        "translation": "This store sells all kinds of electronics."
+      },
+      {
+        "dutch": "om",
+        "english": "(in order) to",
+        "example": "Ik ben hier om je te helpen.",
+        "translation": "I am here to help you."
+      },
+      {
+        "dutch": "de broek",
+        "english": "trousers",
+        "example": "Ik heb een nieuwe broek nodig voor mijn werk.",
+        "translation": "I need new trousers for my job."
+      },
+      {
+        "dutch": "kopen",
+        "english": "buy",
+        "example": "Hij wil een nieuwe telefoon kopen.",
+        "translation": "He wants to buy a new phone."
+      },
+      {
+        "dutch": "de verkoopster",
+        "english": "saleswoman",
+        "example": "De verkoopster hielp me met het kiezen van een jurk.",
+        "translation": "The saleswoman helped me choose a dress."
+      },
+      {
+        "dutch": "normaal",
+        "english": "usually",
+        "example": "Normaal gesproken drink ik koffie in de ochtend.",
+        "translation": "I usually drink coffee in the morning."
+      },
+      {
+        "dutch": "soms",
+        "english": "sometimes",
+        "example": "Ik ga soms naar de bioscoop.",
+        "translation": "I sometimes go to the cinema."
+      },
+      {
+        "dutch": "groter (groot)",
+        "english": "larger",
+        "example": "Dit shirt is groter dan dat van gisteren.",
+        "translation": "This shirt is larger than the one from yesterday."
+      },
+      {
+        "dutch": "de kleur",
+        "english": "colour",
+        "example": "Welke kleur wil je voor je auto?",
+        "translation": "What color do you want for your car?"
+      },
+      {
+        "dutch": "wat voor",
+        "english": "what kind of",
+        "example": "Wat voor muziek luister je graag?",
+        "translation": "What kind of music do you like to listen to?"
+      },
+      {
+        "dutch": "het model",
+        "english": "style",
+        "example": "Dit model schoenen is erg populair.",
+        "translation": "This style of shoes is very popular."
+      },
+      {
+        "dutch": "lichte (licht)",
+        "english": "light",
+        "example": "Ik hou van lichte kleuren in de zomer.",
+        "translation": "I like light colors in the summer."
+      },
+      {
+        "dutch": "laag",
+        "english": "low",
+        "example": "De prijzen zijn dit seizoen laag.",
+        "translation": "Prices are low this season."
+      },
+      {
+        "dutch": "verschillende",
+        "english": "different",
+        "example": "We hebben verschillende smaken ijs.",
+        "translation": "We have different flavors of ice cream."
+      },
+      {
+        "dutch": "merken (het merk)",
+        "english": "brand",
+        "example": "Dit is een bekend merk van schoenen.",
+        "translation": "This is a well-known brand of shoes."
+      },
+      {
+        "dutch": "probeert (proberen)",
+        "english": "try on",
+        "example": "Hij probeert de nieuwe jas aan.",
+        "translation": "He tries on the new jacket."
+      },
+      {
+        "dutch": "ze",
+        "english": "them",
+        "example": "Ik heb de boeken gelezen en ik vond ze leuk.",
+        "translation": "I read the books and I liked them."
+      },
+      {
+        "dutch": "allebei",
+        "english": "both",
+        "example": "Ik hou van allebei de films.",
+        "translation": "I like both movies."
+      },
+      {
+        "dutch": "maar even",
+        "english": "just",
+        "example": "Ik blijf maar even.",
+        "translation": "I’ll stay just for a bit."
+      },
+      {
+        "dutch": "ergens",
+        "english": "somewhere",
+        "example": "Ik heb mijn sleutels ergens gelaten.",
+        "translation": "I left my keys somewhere."
+      },
+      {
+        "dutch": "passen",
+        "english": "try on",
+        "example": "Wil je deze schoenen passen?",
+        "translation": "Do you want to try on these shoes?"
+      },
+      {
+        "dutch": "paskamers (de paskamer)",
+        "english": "changing rooms",
+        "example": "De paskamers zijn achterin de winkel.",
+        "translation": "The changing rooms are at the back of the store."
+      },
+      {
+        "dutch": "zitten",
+        "english": "fit",
+        "example": "Deze broek zit perfect.",
+        "translation": "These trousers fit perfectly."
+      },
+      {
+        "dutch": "beter (goed)",
+        "english": "better",
+        "example": "Dit boek is beter dan het vorige.",
+        "translation": "This book is better than the previous one."
+      },
+      {
+        "dutch": "dan",
+        "english": "than",
+        "example": "Ik ben groter dan mijn broer.",
+        "translation": "I am taller than my brother."
+      },
+      {
+        "dutch": "die",
+        "english": "that",
+        "example": "Die jas is erg mooi.",
+        "translation": "That jacket is very nice."
+      },
+      {
+        "dutch": "hem",
+        "english": "it",
+        "example": "Ik zal hem morgen teruggeven.",
+        "translation": "I will return it tomorrow."
+      },
+      {
+        "dutch": "jullie",
+        "english": "you",
+        "example": "Zien jullie dat ook?",
+        "translation": "Do you see that too?"
+      },
+      {
+        "dutch": "helpen",
+        "english": "help",
+        "example": "Kun je me helpen met mijn huiswerk?",
+        "translation": "Can you help me with my homework?"
+      },
+      {
+        "dutch": "het meisje",
+        "english": "girl",
+        "example": "Het meisje speelt met haar pop.",
+        "translation": "The girl is playing with her doll."
+      },
+      {
+        "dutch": "de jongen",
+        "english": "boy",
+        "example": "De jongen fietst naar school.",
+        "translation": "The boy is cycling to school."
+      },
+      {
+        "dutch": "zoek (zoeken)",
+        "english": "am looking",
+        "example": "Ik zoek mijn sleutels.",
+        "translation": "I am looking for my keys."
+      },
+      {
+        "dutch": "de spijkerbroek",
+        "english": "jeans",
+        "example": "Ik draag graag een spijkerbroek.",
+        "translation": "I like wearing jeans."
+      },
+      {
+        "dutch": "de maat",
+        "english": "size",
+        "example": "Welke maat heb je nodig?",
+        "translation": "What size do you need?"
+      },
+      {
+        "dutch": "wijd",
+        "english": "wide",
+        "example": "Deze broek is te wijd.",
+        "translation": "These trousers are too wide."
+      },
+      {
+        "dutch": "kleinere (klein)",
+        "english": "smaller",
+        "example": "Ik heb een kleinere maat nodig.",
+        "translation": "I need a smaller size."
+      },
+      {
+        "dutch": "het spijt me",
+        "english": "I'm sorry",
+        "example": "Het spijt me dat ik te laat ben.",
+        "translation": "I'm sorry that I'm late."
+      },
+      {
+        "dutch": "kleinste (klein)",
+        "english": "smallest",
+        "example": "Dit is de kleinste kamer in het huis.",
+        "translation": "This is the smallest room in the house."
+      },
+      {
+        "dutch": "dit",
+        "english": "this",
+        "example": "Dit boek is interessant.",
+        "translation": "This book is interesting."
+      },
+      {
+        "dutch": "eventueel",
+        "english": "if necessary",
+        "example": "Ik kan je eventueel helpen met verhuizen.",
+        "translation": "I can help you move if necessary."
+      },
+      {
+        "dutch": "ruilen",
+        "english": "exchange",
+        "example": "Kan ik deze trui ruilen?",
+        "translation": "Can I exchange this sweater?"
+      },
+      {
+        "dutch": "binnen",
+        "english": "within",
+        "example": "Ik zal binnen een uur terug zijn.",
+        "translation": "I will be back within an hour."
+      },
+      {
+        "dutch": "de bon",
+        "english": "receipt",
+        "example": "Bewaar de bon als je het wilt terugbrengen.",
+        "translation": "Keep the receipt if you want to return it."
+      },
+      {
+        "dutch": "T-shirts (het T-shirt)",
+        "english": "T-shirts",
+        "example": "Hij koopt altijd witte T-shirts.",
+        "translation": "He always buys white T-shirts."
+      },
+      {
+        "dutch": "liggen",
+        "english": "are (lie)",
+        "example": "De boeken liggen op de tafel.",
+        "translation": "The books are lying on the table."
+      },
+      {
+        "dutch": "allerlei",
+        "english": "all kinds of",
+        "example": "Er zijn allerlei soorten fruit in de winkel.",
+        "translation": "There are all kinds of fruit in the store."
+      },
+      {
+        "dutch": "wit",
+        "english": "white",
+        "example": "Mijn favoriete kleur is wit.",
+        "translation": "My favorite color is white."
+      },
+      {
+        "dutch": "zwart",
+        "english": "black",
+        "example": "Ik draag vaak zwarte kleren.",
+        "translation": "I often wear black clothes."
+      },
+      {
+        "dutch": "roze",
+        "english": "pink",
+        "example": "Ze houdt van roze bloemen.",
+        "translation": "She loves pink flowers."
+      },
+      {
+        "dutch": "groen",
+        "english": "green",
+        "example": "De bomen zijn groen in de zomer.",
+        "translation": "The trees are green in the summer."
+      },
+      {
+        "dutch": "blauw",
+        "english": "blue",
+        "example": "De lucht is vandaag helder blauw.",
+        "translation": "The sky is bright blue today."
+      },
+      {
+        "dutch": "zo",
+        "english": "so",
+        "example": "Zo simpel is het.",
+        "translation": "It's that simple."
+      },
+      {
+        "dutch": "beslissen",
+        "english": "decide",
+        "example": "Ik moet nog beslissen wat ik ga eten.",
+        "translation": "I still need to decide what I’m going to eat."
+      },
+      {
+        "dutch": "staat me het best",
+        "english": "suits me best",
+        "example": "Deze kleur staat me het best.",
+        "translation": "This color suits me best."
+      },
+      {
+        "dutch": "het best (goed)",
+        "english": "best",
+        "example": "Ik doe mijn best.",
+        "translation": "I do my best."
+      },
+      {
+        "dutch": "pinnen",
+        "english": "pay by debit card",
+        "example": "Kan ik hier pinnen?",
+        "translation": "Can I pay by debit card here?"
+      }
+    ]
+  },
+  {
+    "lesson": 7.3,
+    "topic": "Kleuren",
+    "words": [
+      {
+        "dutch": "wit",
+        "english": "white",
+        "example": "De muren van de kamer zijn wit.",
+        "translation": "The walls of the room are white."
+      },
+      {
+        "dutch": "zwart",
+        "english": "black",
+        "example": "Hij draagt altijd zwarte schoenen.",
+        "translation": "He always wears black shoes."
+      },
+      {
+        "dutch": "grijs",
+        "english": "grey",
+        "example": "De lucht ziet er vandaag grijs uit.",
+        "translation": "The sky looks grey today."
+      },
+      {
+        "dutch": "rood",
+        "english": "red",
+        "example": "Ze heeft een rode jas gekocht.",
+        "translation": "She bought a red coat."
+      },
+      {
+        "dutch": "blauw",
+        "english": "blue",
+        "example": "Zijn ogen zijn blauw.",
+        "translation": "His eyes are blue."
+      },
+      {
+        "dutch": "geel",
+        "english": "yellow",
+        "example": "De zonnebloemen zijn geel.",
+        "translation": "The sunflowers are yellow."
+      },
+      {
+        "dutch": "groen",
+        "english": "green",
+        "example": "Het gras in de tuin is groen.",
+        "translation": "The grass in the garden is green."
+      },
+      {
+        "dutch": "bruin",
+        "english": "brown",
+        "example": "De hond heeft een bruine vacht.",
+        "translation": "The dog has brown fur."
+      },
+      {
+        "dutch": "paars",
+        "english": "purple",
+        "example": "Ze draagt een paarse jurk.",
+        "translation": "She is wearing a purple dress."
+      },
+      {
+        "dutch": "roze",
+        "english": "pink",
+        "example": "De bloemen in de tuin zijn roze.",
+        "translation": "The flowers in the garden are pink."
+      },
+      {
+        "dutch": "oranje",
+        "english": "orange",
+        "example": "De zonsondergang was oranje.",
+        "translation": "The sunset was orange."
+      },
+      {
+        "dutch": "donkerblauw",
+        "english": "dark blue",
+        "example": "Zijn jas is donkerblauw.",
+        "translation": "His jacket is dark blue."
+      },
+      {
+        "dutch": "donkerbruin",
+        "english": "dark brown",
+        "example": "De vloer is donkerbruin.",
+        "translation": "The floor is dark brown."
+      },
+      {
+        "dutch": "lichtgeel",
+        "english": "light yellow",
+        "example": "De muren zijn lichtgeel geverfd.",
+        "translation": "The walls are painted light yellow."
+      },
+      {
+        "dutch": "lichtgroen",
+        "english": "light green",
+        "example": "Ze draagt een lichtgroene blouse.",
+        "translation": "She is wearing a light green blouse."
+      },
+      {
+        "dutch": "effen",
+        "english": "solid",
+        "example": "Hij draagt een effen T-shirt.",
+        "translation": "He is wearing a solid-colored T-shirt."
+      },
+      {
+        "dutch": "geruit",
+        "english": "checked",
+        "example": "Ze kocht een geruite rok.",
+        "translation": "She bought a checked skirt."
+      },
+      {
+        "dutch": "gebloemd",
+        "english": "floral",
+        "example": "De gordijnen hebben een gebloemd patroon.",
+        "translation": "The curtains have a floral pattern."
+      },
+      {
+        "dutch": "gestreept",
+        "english": "striped",
+        "example": "Hij draagt een gestreept overhemd.",
+        "translation": "He is wearing a striped shirt."
+      }
+    ]
+  },
+  {
+    "lesson": 7.4,
+    "topic": "Kleding",
+    "words": [
+      {
+        "dutch": "de broek",
+        "english": "trousers",
+        "example": "Hij draagt een blauwe broek.",
+        "translation": "He is wearing blue trousers."
+      },
+      {
+        "dutch": "de spijkerbroek",
+        "english": "jeans",
+        "example": "Ze heeft haar favoriete spijkerbroek aan.",
+        "translation": "She is wearing her favorite jeans."
+      },
+      {
+        "dutch": "het T-shirt",
+        "english": "T-shirt",
+        "example": "Hij koopt altijd witte T-shirts.",
+        "translation": "He always buys white T-shirts."
+      },
+      {
+        "dutch": "de trui",
+        "english": "sweater",
+        "example": "In de winter draag ik vaak een warme trui.",
+        "translation": "In the winter, I often wear a warm sweater."
+      },
+      {
+        "dutch": "de bloes",
+        "english": "blouse",
+        "example": "Ze draagt een witte bloes naar kantoor.",
+        "translation": "She wears a white blouse to the office."
+      },
+      {
+        "dutch": "het overhemd",
+        "english": "shirt",
+        "example": "Hij strijkt zijn overhemd elke ochtend.",
+        "translation": "He irons his shirt every morning."
+      },
+      {
+        "dutch": "de rok",
+        "english": "skirt",
+        "example": "Ze heeft een nieuwe rok gekocht voor het feest.",
+        "translation": "She bought a new skirt for the party."
+      },
+      {
+        "dutch": "de jurk",
+        "english": "dress",
+        "example": "Ze draagt een rode jurk naar het diner.",
+        "translation": "She is wearing a red dress to the dinner."
+      },
+      {
+        "dutch": "de jas",
+        "english": "jacket",
+        "example": "Het begint koud te worden, dus ik draag een jas.",
+        "translation": "It's starting to get cold, so I’m wearing a jacket."
+      },
+      {
+        "dutch": "de schoenen",
+        "english": "shoes",
+        "example": "Mijn nieuwe schoenen zitten erg comfortabel.",
+        "translation": "My new shoes are very comfortable."
+      },
+      {
+        "dutch": "het pak",
+        "english": "suit",
+        "example": "Hij draagt een pak naar de vergadering.",
+        "translation": "He is wearing a suit to the meeting."
+      }
+    ]
   }
 ]
