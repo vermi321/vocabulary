@@ -368,6 +368,54 @@
         "english": "unhealthy",
         "example": "Roken is ongezond.",
         "translation": "Smoking is unhealthy."
+      },
+      {
+        "dutch": "benen",
+        "english": "legs",
+        "example": "Mijn benen doen pijn na het hardlopen.",
+        "translation": "My legs hurt after running."
+      },
+      {
+        "dutch": "romp",
+        "english": "torso",
+        "example": "De oefeningen zijn gericht op de spieren van de romp.",
+        "translation": "The exercises are focused on the muscles of the torso."
+      },
+      {
+        "dutch": "rug",
+        "english": "back",
+        "example": "Hij heeft last van zijn rug na een lange dag werken.",
+        "translation": "His back is sore after a long day of work."
+      },
+      {
+        "dutch": "houding",
+        "english": "posture",
+        "example": "Een goede houding is belangrijk voor je gezondheid.",
+        "translation": "Good posture is important for your health."
+      },
+      {
+        "dutch": "hartslag",
+        "english": "heartbeat",
+        "example": "Na het rennen voelde ik mijn hartslag versnellen.",
+        "translation": "After running, I felt my heartbeat speed up."
+      },
+      {
+        "dutch": "gedachten",
+        "english": "thoughts",
+        "example": "Ik probeer mijn gedachten te ordenen.",
+        "translation": "I am trying to organize my thoughts."
+      },
+      {
+        "dutch": "neiging",
+        "english": "tendency",
+        "example": "Ze heeft de neiging om te laat te komen.",
+        "translation": "She has a tendency to be late."
+      },
+      {
+        "dutch": "werkvorm",
+        "english": "work form",
+        "example": "Deze werkvorm helpt studenten om samen te werken.",
+        "translation": "This work form helps students collaborate."
       }
     ]
   },
