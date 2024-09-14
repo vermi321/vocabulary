@@ -370,6 +370,12 @@
         "translation": "Smoking is unhealthy."
       },
       {
+        "dutch": "ademhaling",
+        "english": "breathing",
+        "example": "Een diepe ademhaling kan helpen om te ontspannen.",
+        "translation": "Deep breathing can help you relax."
+      },
+      {
         "dutch": "benen",
         "english": "legs",
         "example": "Mijn benen doen pijn na het hardlopen.",
