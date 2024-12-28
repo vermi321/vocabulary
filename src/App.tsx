@@ -2,8 +2,6 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import wordlist from "./assets/wordlists.json";
 import {
   Box,
-  Card,
-  CardContent,
   Container,
   FormControl,
   InputLabel,
@@ -165,14 +163,15 @@ const Word = ({
 
   const sx = useMemo(
     () => ({
-      cursor: "pointer",
-      "&:hover": {
+      position: "relative",
+      "& .translation:hover": {
+        cursor: "pointer",
         "& .pronounciation": {
           color: "#333",
         },
       },
       ...(mode === Mode.Check && {
-        "& .translation": {
+        "& .translation, & .examples": {
           visibility: isActive ? "visible" : "hidden",
         },
       }),
@@ -181,17 +180,14 @@ const Word = ({
   );
 
   return (
-    <Box ref={wordRef} onClick={onPlay} sx={sx}>
-      <Card variant="outlined" sx={{ position: "relative" }}>
-        <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            {word.english}
-          </Typography>
-          <Box className="translation">
-            <Typography
-              variant="h5"
-              sx={{ display: "flex", alignItems: "center" }}
-            >
+    <Box ref={wordRef} sx={sx}>
+      <Grid container spacing={2}>
+        <Grid xs={6}>
+          <Typography>{word.english}</Typography>
+        </Grid>
+        <Grid xs={6}>
+          <Box className="translation" onClick={onPlay}>
+            <Typography sx={{ display: "flex", alignItems: "center" }}>
               <Box>{word.dutch}</Box>
               <Icon sx={{ fontSize: 24, marginLeft: "4px" }}>
                 <PlayCircleOutlineIcon
@@ -201,40 +197,43 @@ const Word = ({
                 />
               </Icon>
             </Typography>
-            {showExamples && (
-              <Typography sx={{ mt: 1.5 }} color="text.secondary">
-                <Box>{word.example}</Box>
-                <Box>{word.translation}</Box>
-              </Typography>
-            )}
-            <Box sx={{ position: "absolute", top: 5, right: 5 }}>
-              <IconButton
-                sx={{
-                  fontSize: 44,
-                  color: checked ? "#16b06c" : "#ddd",
-                }}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setChecked(!checked);
-                }}
-              >
-                {checked ? (
-                  <CheckCircleIcon fontSize="inherit" />
-                ) : (
-                  <CheckCircleOutlineIcon fontSize="inherit" />
-                )}
-              </IconButton>
-            </Box>
           </Box>
-        </CardContent>
-      </Card>
+        </Grid>
+      </Grid>
+      {showExamples && (
+        <Typography
+          color="text.secondary"
+          className="examples"
+          sx={{ fontSize: 12 }}
+        >
+          <Box>{word.example}</Box>
+          <Box>{word.translation}</Box>
+        </Typography>
+      )}
+      <Box sx={{ position: "absolute", top: 5, right: 0 }}>
+        <IconButton
+          size="small"
+          sx={{
+            fontSize: 24,
+            color: checked ? "#16b06c" : "#ddd",
+          }}
+          onClick={(e) => {
+            e.stopPropagation();
+            setChecked(!checked);
+          }}
+        >
+          {checked ? (
+            <CheckCircleIcon fontSize="inherit" />
+          ) : (
+            <CheckCircleOutlineIcon fontSize="inherit" />
+          )}
+        </IconButton>
+      </Box>
     </Box>
   );
 };
 
 export const App = () => {
-  const [audioSrc, setAudioSrc] = useState<string | null>(null);
-
   const wordsTransformed = useMemo(
     () =>
       wordlist.map((entry) => ({
@@ -244,7 +243,12 @@ export const App = () => {
     []
   );
 
-  const [initialLessonId] = useState(() => {
+  const [audioSrc, setAudioSrc] = useState<string | null>(null);
+  const [mode, setMode] = useState(() => {
+    const storedMode = Number(localStorage.mode);
+    return Mode[storedMode] ? storedMode : Mode.Learn;
+  });
+  const [lessonId, setLessonId] = useState(() => {
     const storedLesson = localStorage.lessonId;
     const allLessons = wordsTransformed.map((entry) => entry.id);
     const latestLesson = wordsTransformed.slice(-1)[0].id;
@@ -252,17 +256,12 @@ export const App = () => {
       ? storedLesson
       : latestLesson;
   });
-  const [mode, _setMode] = useState(() => {
-    const storedMode = Number(localStorage.mode);
-    return Mode[storedMode] ? storedMode : Mode.Learn;
-  });
-  const [showExamples, _setShowExamples] = useState(
+  const [showExamples, setShowExamples] = useState(
     () => localStorage.examples !== "false"
   );
   const [learntWords, _setLearntWords] = useState(() =>
     JSON.parse(localStorage.learntWords || "{}")
   );
-  const [lessonId, _setLessonId] = useState(initialLessonId);
 
   const isWordLearnt = useCallback(
     (word: Word) => learntWords[lessonId]?.includes(word.dutch),
@@ -294,20 +293,11 @@ export const App = () => {
     [lessonId, learntWords]
   );
 
-  const setMode = useCallback((mode: Mode) => {
+  useEffect(() => {
     localStorage.mode = mode;
-    _setMode(mode);
-  }, []);
-
-  const setShowExamples = useCallback((showExamples: boolean) => {
-    localStorage.examples = showExamples;
-    _setShowExamples(showExamples);
-  }, []);
-
-  const setLessonId = useCallback((lessonId: string) => {
     localStorage.lessonId = lessonId;
-    _setLessonId(lessonId);
-  }, []);
+    localStorage.examples = showExamples;
+  }, [mode, showExamples, lessonId]);
 
   const onPlay = useCallback(
     (word: Word) =>
