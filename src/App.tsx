@@ -12,6 +12,8 @@ import {
   Typography,
   IconButton,
   Icon,
+  FormControlLabel,
+  Checkbox,
 } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
@@ -51,14 +53,18 @@ const LessonSettings = ({
   wordlist,
   lessonId,
   mode,
+  showExamples,
   setLessonId,
   setMode,
+  setShowExamples,
 }: {
   wordlist: { lesson: number; topic: string; id: string }[];
   lessonId: string;
   mode: Mode;
+  showExamples: boolean;
   setLessonId: (lessonId: string) => void;
   setMode: (mode: Mode) => void;
+  setShowExamples: (showExamples: boolean) => void;
 }) => {
   return (
     <Grid container spacing={2}>
@@ -71,6 +77,7 @@ const LessonSettings = ({
             id="mode-select"
             value={lessonId}
             label="Lesson"
+            size="small"
             onChange={(event) => {
               setLessonId(event.target.value);
             }}
@@ -83,7 +90,7 @@ const LessonSettings = ({
           </Select>
         </FormControl>
       </Grid>
-      <Grid xs={6}>
+      <Grid xs={3}>
         <FormControl fullWidth>
           <InputLabel id="mode-select">Mode</InputLabel>
           <Select
@@ -92,6 +99,7 @@ const LessonSettings = ({
             id="mode-select"
             value={mode}
             label="Mode"
+            size="small"
             onChange={(event) => {
               setMode(Number(event.target.value));
             }}
@@ -101,6 +109,17 @@ const LessonSettings = ({
           </Select>
         </FormControl>
       </Grid>
+      <Grid xs={3}>
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={showExamples}
+              onChange={(_, value) => setShowExamples(value)}
+            />
+          }
+          label="Examples"
+        />
+      </Grid>
     </Grid>
   );
 };
@@ -108,12 +127,14 @@ const LessonSettings = ({
 const Word = ({
   word,
   mode,
+  showExamples,
   checked,
   setChecked,
   onPlay,
 }: {
   word: Word;
   mode: Mode;
+  showExamples: boolean;
   checked: boolean;
   setChecked: (checked: boolean) => void;
   onPlay: () => void;
@@ -180,10 +201,12 @@ const Word = ({
                 />
               </Icon>
             </Typography>
-            <Typography sx={{ mt: 1.5 }} color="text.secondary">
-              <Box>{word.example}</Box>
-              <Box>{word.translation}</Box>
-            </Typography>
+            {showExamples && (
+              <Typography sx={{ mt: 1.5 }} color="text.secondary">
+                <Box>{word.example}</Box>
+                <Box>{word.translation}</Box>
+              </Typography>
+            )}
             <Box sx={{ position: "absolute", top: 5, right: 5 }}>
               <IconButton
                 sx={{
@@ -233,6 +256,9 @@ export const App = () => {
     const storedMode = Number(localStorage.mode);
     return Mode[storedMode] ? storedMode : Mode.Learn;
   });
+  const [showExamples, _setShowExamples] = useState(
+    () => localStorage.examples !== "false"
+  );
   const [learntWords, _setLearntWords] = useState(() =>
     JSON.parse(localStorage.learntWords || "{}")
   );
@@ -273,6 +299,11 @@ export const App = () => {
     _setMode(mode);
   }, []);
 
+  const setShowExamples = useCallback((showExamples: boolean) => {
+    localStorage.examples = showExamples;
+    _setShowExamples(showExamples);
+  }, []);
+
   const setLessonId = useCallback((lessonId: string) => {
     localStorage.lessonId = lessonId;
     _setLessonId(lessonId);
@@ -295,7 +326,9 @@ export const App = () => {
               wordlist={wordsTransformed}
               lessonId={lessonId}
               mode={mode}
+              showExamples={showExamples}
               setLessonId={setLessonId}
+              setShowExamples={setShowExamples}
               setMode={setMode}
             />
             <Box sx={{ marginTop: 2 }}>
@@ -305,6 +338,7 @@ export const App = () => {
                     <Word
                       word={word}
                       mode={mode}
+                      showExamples={showExamples}
                       checked={isWordLearnt(word)}
                       onPlay={() => onPlay(word)}
                       setChecked={(isLearnt) =>
