@@ -193,7 +193,7 @@ const Word = ({
                 <PlayCircleOutlineIcon
                   className="pronounciation"
                   fontSize="inherit"
-                  sx={{ color: "#ddd" }}
+                  sx={{ color: "#888" }}
                 />
               </Icon>
             </Typography>
@@ -215,7 +215,8 @@ const Word = ({
           size="small"
           sx={{
             fontSize: 24,
-            color: checked ? "#16b06c" : "#ddd",
+            color: checked ? "#16b06c" : "#888",
+            "&:hover": { color: "#333" },
           }}
           onClick={(e) => {
             e.stopPropagation();
