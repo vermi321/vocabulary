@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import wordlist from "./assets/wordlists.json";
 import {
+  AppBar,
+  Toolbar,
   Box,
   Container,
   FormControl,
@@ -65,60 +67,79 @@ const LessonSettings = ({
   setShowExamples: (showExamples: boolean) => void;
 }) => {
   return (
-    <Grid container spacing={2}>
-      <Grid xs={6}>
-        <FormControl fullWidth>
-          <InputLabel id="lesson-select">Lesson</InputLabel>
-          <Select
-            sx={{ display: "block", overflowX: "hidden" }}
-            labelId="lesson-select"
-            id="mode-select"
-            value={lessonId}
-            label="Lesson"
-            size="small"
-            onChange={(event) => {
-              setLessonId(event.target.value);
-            }}
-          >
-            {wordlist.map((entry) => (
-              <MenuItem key={entry.id} value={entry.id}>
-                {entry.lesson}. {entry.topic}
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-      </Grid>
-      <Grid xs={3}>
-        <FormControl fullWidth>
-          <InputLabel id="mode-select">Mode</InputLabel>
-          <Select
-            sx={{ display: "block", overflowX: "hidden" }}
-            labelId="mode-select"
-            id="mode-select"
-            value={mode}
-            label="Mode"
-            size="small"
-            onChange={(event) => {
-              setMode(Number(event.target.value));
-            }}
-          >
-            <MenuItem value={Mode.Learn}>{Mode[Mode.Learn]}</MenuItem>
-            <MenuItem value={Mode.Check}>{Mode[Mode.Check]}</MenuItem>
-          </Select>
-        </FormControl>
-      </Grid>
-      <Grid xs={3}>
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={showExamples}
-              onChange={(_, value) => setShowExamples(value)}
-            />
-          }
-          label="Examples"
-        />
-      </Grid>
-    </Grid>
+    <AppBar
+      position="sticky"
+      sx={{
+        background: "#fff",
+        color: "#000",
+      }}
+    >
+      <Toolbar variant="regular">
+        <Container
+          maxWidth="md"
+          sx={{
+            "@media (max-width:900px)": {
+              px: "0 !important",
+            },
+          }}
+        >
+          <Grid container spacing={2}>
+            <Grid xs={6}>
+              <FormControl fullWidth>
+                <InputLabel id="lesson-select">Lesson</InputLabel>
+                <Select
+                  sx={{ display: "block", overflowX: "hidden" }}
+                  labelId="lesson-select"
+                  id="mode-select"
+                  value={lessonId}
+                  label="Lesson"
+                  size="small"
+                  onChange={(event) => {
+                    setLessonId(event.target.value);
+                  }}
+                >
+                  {wordlist.map((entry) => (
+                    <MenuItem key={entry.id} value={entry.id}>
+                      {entry.lesson}. {entry.topic}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+            <Grid xs={3}>
+              <FormControl fullWidth>
+                <InputLabel id="mode-select">Mode</InputLabel>
+                <Select
+                  sx={{ display: "block", overflowX: "hidden" }}
+                  labelId="mode-select"
+                  id="mode-select"
+                  value={mode}
+                  label="Mode"
+                  size="small"
+                  onChange={(event) => {
+                    setMode(Number(event.target.value));
+                  }}
+                >
+                  <MenuItem value={Mode.Learn}>{Mode[Mode.Learn]}</MenuItem>
+                  <MenuItem value={Mode.Check}>{Mode[Mode.Check]}</MenuItem>
+                </Select>
+              </FormControl>
+            </Grid>
+            <Grid xs={3}>
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    checked={showExamples}
+                    onChange={(_, value) => setShowExamples(value)}
+                  />
+                }
+                label="Examples"
+              />
+            </Grid>
+          </Grid>
+        </Container>
+      </Toolbar>
+    </AppBar>
   );
 };
 
@@ -309,49 +330,51 @@ export const App = () => {
   );
 
   return (
-    <Container maxWidth="md">
-      <Box sx={{ flexGrow: 1, mt: 2 }}>
-        <Grid container spacing={2}>
-          <Grid xs={12}>
-            <LessonSettings
-              wordlist={wordsTransformed}
-              lessonId={lessonId}
-              mode={mode}
-              showExamples={showExamples}
-              setLessonId={setLessonId}
-              setShowExamples={setShowExamples}
-              setMode={setMode}
-            />
-            <Box sx={{ marginTop: 2 }}>
-              <Grid container spacing={2}>
-                {words.map((word) => (
-                  <Grid xs={12} key={`${word.dutch}:${word.english}`}>
-                    <Word
-                      word={word}
-                      mode={mode}
-                      showExamples={showExamples}
-                      checked={isWordLearnt(word)}
-                      onPlay={() => onPlay(word)}
-                      setChecked={(isLearnt) =>
-                        setWordLearnt(word.dutch, isLearnt)
-                      }
+    <>
+      <LessonSettings
+        wordlist={wordsTransformed}
+        lessonId={lessonId}
+        mode={mode}
+        showExamples={showExamples}
+        setLessonId={setLessonId}
+        setShowExamples={setShowExamples}
+        setMode={setMode}
+      />
+      <Container maxWidth="md">
+        <Box sx={{ flexGrow: 1, mt: 2 }}>
+          <Grid container spacing={2}>
+            <Grid xs={12}>
+              <Box>
+                <Grid container spacing={2}>
+                  {words.map((word) => (
+                    <Grid xs={12} key={`${word.dutch}:${word.english}`}>
+                      <Word
+                        word={word}
+                        mode={mode}
+                        showExamples={showExamples}
+                        checked={isWordLearnt(word)}
+                        onPlay={() => onPlay(word)}
+                        setChecked={(isLearnt) =>
+                          setWordLearnt(word.dutch, isLearnt)
+                        }
+                      />
+                    </Grid>
+                  ))}
+                  {audioSrc && (
+                    <iframe
+                      key={audioSrc}
+                      title="pronounciation"
+                      src={audioSrc}
+                      allow="autoplay"
+                      style={{ display: "none" }}
                     />
-                  </Grid>
-                ))}
-                {audioSrc && (
-                  <iframe
-                    key={audioSrc}
-                    title="pronounciation"
-                    src={audioSrc}
-                    allow="autoplay"
-                    style={{ display: "none" }}
-                  />
-                )}
-              </Grid>
-            </Box>
+                  )}
+                </Grid>
+              </Box>
+            </Grid>
           </Grid>
-        </Grid>
-      </Box>
-    </Container>
+        </Box>
+      </Container>
+    </>
   );
 };
